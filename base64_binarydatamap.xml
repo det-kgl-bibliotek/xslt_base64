@@ -1,167 +1,715 @@
-<?xml version="1.0" encoding="utf-8"?><datamap>
+<datamap>
+
+	<!--This table maps characters to binary codes-->
+
 	<asciibinary>
-		
-		<item><ascii> </ascii><binary>00100000</binary></item>
-		<item><ascii>!</ascii><binary>00100001</binary></item>
-		<item><ascii>"</ascii><binary>00100010</binary></item>
-		<item><ascii>#</ascii><binary>00100011</binary></item>
-		<item><ascii>$</ascii><binary>00100100</binary></item>
-		<item><ascii>%</ascii><binary>00100101</binary></item>
-		<item><ascii>&amp;</ascii><binary>00100110</binary></item>
-		<item><ascii>'</ascii><binary>00100111</binary></item>
-		<item><ascii>(</ascii><binary>00101000</binary></item>
-		<item><ascii>)</ascii><binary>00101001</binary></item>
-		<item><ascii>*</ascii><binary>00101010</binary></item>
-		<item><ascii>+</ascii><binary>00101011</binary></item>
-		<item><ascii>,</ascii><binary>00101100</binary></item>
-		<item><ascii>-</ascii><binary>00101101</binary></item>
-		<item><ascii>.</ascii><binary>00101110</binary></item>
-		<item><ascii>/</ascii><binary>00101111</binary></item>
-		<item><ascii>0</ascii><binary>00110000</binary></item>
-		<item><ascii>1</ascii><binary>00110001</binary></item>
-		<item><ascii>2</ascii><binary>00110010</binary></item>
-		<item><ascii>3</ascii><binary>00110011</binary></item>
-		<item><ascii>4</ascii><binary>00110100</binary></item>
-		<item><ascii>5</ascii><binary>00110101</binary></item>
-		<item><ascii>6</ascii><binary>00110110</binary></item>
-		<item><ascii>7</ascii><binary>00110111</binary></item>
-		<item><ascii>8</ascii><binary>00111000</binary></item>
-		<item><ascii>9</ascii><binary>00111001</binary></item>
-		<item><ascii>:</ascii><binary>00111010</binary></item>
-		<item><ascii>;</ascii><binary>00111011</binary></item>
-		<item><ascii>&lt;</ascii><binary>00111100</binary></item>
-		<item><ascii>=</ascii><binary>00111101</binary></item>
-		<item><ascii>&gt;</ascii><binary>00111110</binary></item>
-		<item><ascii>?</ascii><binary>00111111</binary></item>
-		<item><ascii>@</ascii><binary>01000000</binary></item>
-		<item><ascii>A</ascii><binary>01000001</binary></item>
-		<item><ascii>B</ascii><binary>01000010</binary></item>
-		<item><ascii>C</ascii><binary>01000011</binary></item>
-		<item><ascii>D</ascii><binary>01000100</binary></item>
-		<item><ascii>E</ascii><binary>01000101</binary></item>
-		<item><ascii>F</ascii><binary>01000110</binary></item>
-		<item><ascii>G</ascii><binary>01000111</binary></item>
-		<item><ascii>H</ascii><binary>01001000</binary></item>
-		<item><ascii>I</ascii><binary>01001001</binary></item>
-		<item><ascii>J</ascii><binary>01001010</binary></item>
-		<item><ascii>K</ascii><binary>01001011</binary></item>
-		<item><ascii>L</ascii><binary>01001100</binary></item>
-		<item><ascii>M</ascii><binary>01001101</binary></item>
-		<item><ascii>N</ascii><binary>01001110</binary></item>
-		<item><ascii>O</ascii><binary>01001111</binary></item>
-		<item><ascii>P</ascii><binary>01010000</binary></item>
-		<item><ascii>Q</ascii><binary>01010001</binary></item>
-		<item><ascii>R</ascii><binary>01010010</binary></item>
-		<item><ascii>S</ascii><binary>01010011</binary></item>
-		<item><ascii>T</ascii><binary>01010100</binary></item>
-		<item><ascii>U</ascii><binary>01010101</binary></item>
-		<item><ascii>V</ascii><binary>01010110</binary></item>
-		<item><ascii>W</ascii><binary>01010111</binary></item>
-		<item><ascii>X</ascii><binary>01011000</binary></item>
-		<item><ascii>Y</ascii><binary>01011001</binary></item>
-		<item><ascii>Z</ascii><binary>01011010</binary></item>
-		<item><ascii>[</ascii><binary>01011011</binary></item>
-		<item><ascii>\</ascii><binary>01011100</binary></item>
-		<item><ascii>]</ascii><binary>01011101</binary></item>
-		<item><ascii>^</ascii><binary>01011110</binary></item>
-		<item><ascii>_</ascii><binary>01011111</binary></item>
-		<item><ascii>`</ascii><binary>01100000</binary></item>
-		<item><ascii>a</ascii><binary>01100001</binary></item>
-		<item><ascii>b</ascii><binary>01100010</binary></item>
-		<item><ascii>c</ascii><binary>01100011</binary></item>
-		<item><ascii>d</ascii><binary>01100100</binary></item>
-		<item><ascii>e</ascii><binary>01100101</binary></item>
-		<item><ascii>f</ascii><binary>01100110</binary></item>
-		<item><ascii>g</ascii><binary>01100111</binary></item>
-		<item><ascii>h</ascii><binary>01101000</binary></item>
-		<item><ascii>i</ascii><binary>01101001</binary></item>
-		<item><ascii>j</ascii><binary>01101010</binary></item>
-		<item><ascii>k</ascii><binary>01101011</binary></item>
-		<item><ascii>l</ascii><binary>01101100</binary></item>
-		<item><ascii>m</ascii><binary>01101101</binary></item>
-		<item><ascii>n</ascii><binary>01101110</binary></item>
-		<item><ascii>o</ascii><binary>01101111</binary></item>
-		<item><ascii>p</ascii><binary>01110000</binary></item>
-		<item><ascii>q</ascii><binary>01110001</binary></item>
-		<item><ascii>r</ascii><binary>01110010</binary></item>
-		<item><ascii>s</ascii><binary>01110011</binary></item>
-		<item><ascii>t</ascii><binary>01110100</binary></item>
-		<item><ascii>u</ascii><binary>01110101</binary></item>
-		<item><ascii>v</ascii><binary>01110110</binary></item>
-		<item><ascii>w</ascii><binary>01110111</binary></item>
-		<item><ascii>x</ascii><binary>01111000</binary></item>
-		<item><ascii>y</ascii><binary>01111001</binary></item>
-		<item><ascii>z</ascii><binary>01111010</binary></item>
-		<item><ascii>{</ascii><binary>01111011</binary></item>
-		<item><ascii>|</ascii><binary>01111100</binary></item>
-		<item><ascii>}</ascii><binary>01111101</binary></item>
-		<item><ascii>~</ascii><binary>01111110</binary></item>
-		<item><ascii>А</ascii><binary>1101000010010000</binary></item>
-		<item><ascii>Б</ascii><binary>1101000010010000</binary></item>
-		<item><ascii>В</ascii><binary>1101000010010010</binary></item>
-		<item><ascii>Г</ascii><binary>1101000010010011</binary></item>
-		<item><ascii>Д</ascii><binary>1101000010010100</binary></item>
-		<item><ascii>Е</ascii><binary>1101000010010101</binary></item>
-		<item><ascii>Ж</ascii><binary>1101000010010110</binary></item>
-		<item><ascii>З</ascii><binary>1101000010010111</binary></item>
-		<item><ascii>И</ascii><binary>1101000010011000</binary></item>
-		<item><ascii>Й</ascii><binary>1101000010011001</binary></item>
-		<item><ascii>К</ascii><binary>1101000010011010</binary></item>
-		<item><ascii>Л</ascii><binary>1101000010011011</binary></item>
-		<item><ascii>М</ascii><binary>1101000010011100</binary></item>
-		<item><ascii>Н</ascii><binary>1101000010011101</binary></item>
-		<item><ascii>О</ascii><binary>1101000010011110</binary></item>
-		<item><ascii>П</ascii><binary>1101000010011111</binary></item>
-		<item><ascii>Р</ascii><binary>1101000010100000</binary></item>
-		<item><ascii>С</ascii><binary>1101000010100001</binary></item>
-		<item><ascii>Т</ascii><binary>1101000010100010</binary></item>
-		<item><ascii>У</ascii><binary>1101000010100011</binary></item>
-		<item><ascii>Ф</ascii><binary>1101000010100100</binary></item>
-		<item><ascii>Х</ascii><binary>1101000010100101</binary></item>
-		<item><ascii>Ц</ascii><binary>1101000010100110</binary></item>
-		<item><ascii>Ч</ascii><binary>1101000010100111</binary></item>
-		<item><ascii>Ш</ascii><binary>1101000010101000</binary></item>
-		<item><ascii>Щ</ascii><binary>1101000010101001</binary></item>
-		<item><ascii>Ъ</ascii><binary>1101000010101010</binary></item>
-		<item><ascii>Ы</ascii><binary>1101000010101011</binary></item>
-		<item><ascii>Ь</ascii><binary>1101000010101100</binary></item>
-		<item><ascii>Э</ascii><binary>1101000010101101</binary></item>
-		<item><ascii>Ю</ascii><binary>1101000010101110</binary></item>
-		<item><ascii>Я</ascii><binary>1101000010101111</binary></item>
-		<item><ascii>а</ascii><binary>1101000010110000</binary></item>
-		<item><ascii>б</ascii><binary>1101000010110001</binary></item>
-		<item><ascii>в</ascii><binary>1101000010110010</binary></item>
-		<item><ascii>г</ascii><binary>1101000010110011</binary></item>
-		<item><ascii>д</ascii><binary>1101000010110100</binary></item>
-		<item><ascii>е</ascii><binary>1101000010110101</binary></item>
-		<item><ascii>ж</ascii><binary>1101000010110110</binary></item>
-		<item><ascii>з</ascii><binary>1101000010110111</binary></item>
-		<item><ascii>и</ascii><binary>1101000010111000</binary></item>
-		<item><ascii>й</ascii><binary>1101000010111001</binary></item>
-		<item><ascii>к</ascii><binary>1101000010111010</binary></item>
-		<item><ascii>л</ascii><binary>1101000010111011</binary></item>
-		<item><ascii>м</ascii><binary>1101000010111100</binary></item>
-		<item><ascii>н</ascii><binary>1101000010111101</binary></item>
-		<item><ascii>о</ascii><binary>1101000010111110</binary></item>
-		<item><ascii>п</ascii><binary>1101000010111111</binary></item>
-		<item><ascii>р</ascii><binary>1101000110000000</binary></item>
-		<item><ascii>с</ascii><binary>1101000110000001</binary></item>
-		<item><ascii>т</ascii><binary>1101000110000010</binary></item>
-		<item><ascii>у</ascii><binary>1101000110000011</binary></item>
-		<item><ascii>ф</ascii><binary>1101000110000100</binary></item>
-		<item><ascii>х</ascii><binary>1101000110000101</binary></item>
-		<item><ascii>ц</ascii><binary>1101000110000110</binary></item>
-		<item><ascii>ч</ascii><binary>1101000110000111</binary></item>
-		<item><ascii>ш</ascii><binary>1101000110001000</binary></item>
-		<item><ascii>щ</ascii><binary>1101000110001001</binary></item>
-		<item><ascii>ъ</ascii><binary>1101000110001010</binary></item>
-		<item><ascii>ы</ascii><binary>1101000110001011</binary></item>
-		<item><ascii>ь</ascii><binary>1101000110001100</binary></item>
-		<item><ascii>э</ascii><binary>1101000110001101</binary></item>
-		<item><ascii>ю</ascii><binary>1101000110001110</binary></item>
-		<item><ascii>я</ascii><binary>1101000110001111</binary></item>
+		<item><ascii> </ascii><binary>00100000</binary></item><!--SPACE-->
+		<item><ascii>!</ascii><binary>00100001</binary></item><!--EXCLAMATION MARK-->
+		<item><ascii>"</ascii><binary>00100010</binary></item><!--QUOTATION MARK-->
+		<item><ascii>#</ascii><binary>00100011</binary></item><!--NUMBER SIGN-->
+		<item><ascii>$</ascii><binary>00100100</binary></item><!--DOLLAR SIGN-->
+		<item><ascii>%</ascii><binary>00100101</binary></item><!--PERCENT SIGN-->
+		<item><ascii>&amp;</ascii><binary>00100110</binary></item><!--AMPERSAND-->
+		<item><ascii>'</ascii><binary>00100111</binary></item><!--APOSTROPHE-->
+		<item><ascii>(</ascii><binary>00101000</binary></item><!--LEFT PARENTHESIS-->
+		<item><ascii>)</ascii><binary>00101001</binary></item><!--RIGHT PARENTHESIS-->
+		<item><ascii>*</ascii><binary>00101010</binary></item><!--ASTERISK-->
+		<item><ascii>+</ascii><binary>00101011</binary></item><!--PLUS SIGN-->
+		<item><ascii>,</ascii><binary>00101100</binary></item><!--COMMA-->
+		<item><ascii>-</ascii><binary>00101101</binary></item><!--HYPHEN-MINUS-->
+		<item><ascii>.</ascii><binary>00101110</binary></item><!--FULL STOP-->
+		<item><ascii>/</ascii><binary>00101111</binary></item><!--SOLIDUS-->
+		<item><ascii>0</ascii><binary>00110000</binary></item><!--DIGIT ZERO-->
+		<item><ascii>1</ascii><binary>00110001</binary></item><!--DIGIT ONE-->
+		<item><ascii>2</ascii><binary>00110010</binary></item><!--DIGIT TWO-->
+		<item><ascii>3</ascii><binary>00110011</binary></item><!--DIGIT THREE-->
+		<item><ascii>4</ascii><binary>00110100</binary></item><!--DIGIT FOUR-->
+		<item><ascii>5</ascii><binary>00110101</binary></item><!--DIGIT FIVE-->
+		<item><ascii>6</ascii><binary>00110110</binary></item><!--DIGIT SIX-->
+		<item><ascii>7</ascii><binary>00110111</binary></item><!--DIGIT SEVEN-->
+		<item><ascii>8</ascii><binary>00111000</binary></item><!--DIGIT EIGHT-->
+		<item><ascii>9</ascii><binary>00111001</binary></item><!--DIGIT NINE-->
+		<item><ascii>:</ascii><binary>00111010</binary></item><!--COLON-->
+		<item><ascii>;</ascii><binary>00111011</binary></item><!--SEMICOLON-->
+		<item><ascii>&lt;</ascii><binary>00111100</binary></item><!--LESS-THAN SIGN-->
+		<item><ascii>=</ascii><binary>00111101</binary></item><!--EQUALS SIGN-->
+		<item><ascii>&gt;</ascii><binary>00111110</binary></item><!--GREATER-THAN SIGN-->
+		<item><ascii>?</ascii><binary>00111111</binary></item><!--QUESTION MARK-->
+		<item><ascii>@</ascii><binary>01000000</binary></item><!--COMMERCIAL AT-->
+		<item><ascii>A</ascii><binary>01000001</binary></item><!--LATIN CAPITAL LETTER A-->
+		<item><ascii>B</ascii><binary>01000010</binary></item><!--LATIN CAPITAL LETTER B-->
+		<item><ascii>C</ascii><binary>01000011</binary></item><!--LATIN CAPITAL LETTER C-->
+		<item><ascii>D</ascii><binary>01000100</binary></item><!--LATIN CAPITAL LETTER D-->
+		<item><ascii>E</ascii><binary>01000101</binary></item><!--LATIN CAPITAL LETTER E-->
+		<item><ascii>F</ascii><binary>01000110</binary></item><!--LATIN CAPITAL LETTER F-->
+		<item><ascii>G</ascii><binary>01000111</binary></item><!--LATIN CAPITAL LETTER G-->
+		<item><ascii>H</ascii><binary>01001000</binary></item><!--LATIN CAPITAL LETTER H-->
+		<item><ascii>I</ascii><binary>01001001</binary></item><!--LATIN CAPITAL LETTER I-->
+		<item><ascii>J</ascii><binary>01001010</binary></item><!--LATIN CAPITAL LETTER J-->
+		<item><ascii>K</ascii><binary>01001011</binary></item><!--LATIN CAPITAL LETTER K-->
+		<item><ascii>L</ascii><binary>01001100</binary></item><!--LATIN CAPITAL LETTER L-->
+		<item><ascii>M</ascii><binary>01001101</binary></item><!--LATIN CAPITAL LETTER M-->
+		<item><ascii>N</ascii><binary>01001110</binary></item><!--LATIN CAPITAL LETTER N-->
+		<item><ascii>O</ascii><binary>01001111</binary></item><!--LATIN CAPITAL LETTER O-->
+		<item><ascii>P</ascii><binary>01010000</binary></item><!--LATIN CAPITAL LETTER P-->
+		<item><ascii>Q</ascii><binary>01010001</binary></item><!--LATIN CAPITAL LETTER Q-->
+		<item><ascii>R</ascii><binary>01010010</binary></item><!--LATIN CAPITAL LETTER R-->
+		<item><ascii>S</ascii><binary>01010011</binary></item><!--LATIN CAPITAL LETTER S-->
+		<item><ascii>T</ascii><binary>01010100</binary></item><!--LATIN CAPITAL LETTER T-->
+		<item><ascii>U</ascii><binary>01010101</binary></item><!--LATIN CAPITAL LETTER U-->
+		<item><ascii>V</ascii><binary>01010110</binary></item><!--LATIN CAPITAL LETTER V-->
+		<item><ascii>W</ascii><binary>01010111</binary></item><!--LATIN CAPITAL LETTER W-->
+		<item><ascii>X</ascii><binary>01011000</binary></item><!--LATIN CAPITAL LETTER X-->
+		<item><ascii>Y</ascii><binary>01011001</binary></item><!--LATIN CAPITAL LETTER Y-->
+		<item><ascii>Z</ascii><binary>01011010</binary></item><!--LATIN CAPITAL LETTER Z-->
+		<item><ascii>[</ascii><binary>01011011</binary></item><!--LEFT SQUARE BRACKET-->
+		<item><ascii>\</ascii><binary>01011100</binary></item><!--REVERSE SOLIDUS-->
+		<item><ascii>]</ascii><binary>01011101</binary></item><!--RIGHT SQUARE BRACKET-->
+		<item><ascii>^</ascii><binary>01011110</binary></item><!--CIRCUMFLEX ACCENT-->
+		<item><ascii>_</ascii><binary>01011111</binary></item><!--LOW LINE-->
+		<item><ascii>`</ascii><binary>01100000</binary></item><!--GRAVE ACCENT-->
+		<item><ascii>a</ascii><binary>01100001</binary></item><!--LATIN SMALL LETTER A-->
+		<item><ascii>b</ascii><binary>01100010</binary></item><!--LATIN SMALL LETTER B-->
+		<item><ascii>c</ascii><binary>01100011</binary></item><!--LATIN SMALL LETTER C-->
+		<item><ascii>d</ascii><binary>01100100</binary></item><!--LATIN SMALL LETTER D-->
+		<item><ascii>e</ascii><binary>01100101</binary></item><!--LATIN SMALL LETTER E-->
+		<item><ascii>f</ascii><binary>01100110</binary></item><!--LATIN SMALL LETTER F-->
+		<item><ascii>g</ascii><binary>01100111</binary></item><!--LATIN SMALL LETTER G-->
+		<item><ascii>h</ascii><binary>01101000</binary></item><!--LATIN SMALL LETTER H-->
+		<item><ascii>i</ascii><binary>01101001</binary></item><!--LATIN SMALL LETTER I-->
+		<item><ascii>j</ascii><binary>01101010</binary></item><!--LATIN SMALL LETTER J-->
+		<item><ascii>k</ascii><binary>01101011</binary></item><!--LATIN SMALL LETTER K-->
+		<item><ascii>l</ascii><binary>01101100</binary></item><!--LATIN SMALL LETTER L-->
+		<item><ascii>m</ascii><binary>01101101</binary></item><!--LATIN SMALL LETTER M-->
+		<item><ascii>n</ascii><binary>01101110</binary></item><!--LATIN SMALL LETTER N-->
+		<item><ascii>o</ascii><binary>01101111</binary></item><!--LATIN SMALL LETTER O-->
+		<item><ascii>p</ascii><binary>01110000</binary></item><!--LATIN SMALL LETTER P-->
+		<item><ascii>q</ascii><binary>01110001</binary></item><!--LATIN SMALL LETTER Q-->
+		<item><ascii>r</ascii><binary>01110010</binary></item><!--LATIN SMALL LETTER R-->
+		<item><ascii>s</ascii><binary>01110011</binary></item><!--LATIN SMALL LETTER S-->
+		<item><ascii>t</ascii><binary>01110100</binary></item><!--LATIN SMALL LETTER T-->
+		<item><ascii>u</ascii><binary>01110101</binary></item><!--LATIN SMALL LETTER U-->
+		<item><ascii>v</ascii><binary>01110110</binary></item><!--LATIN SMALL LETTER V-->
+		<item><ascii>w</ascii><binary>01110111</binary></item><!--LATIN SMALL LETTER W-->
+		<item><ascii>x</ascii><binary>01111000</binary></item><!--LATIN SMALL LETTER X-->
+		<item><ascii>y</ascii><binary>01111001</binary></item><!--LATIN SMALL LETTER Y-->
+		<item><ascii>z</ascii><binary>01111010</binary></item><!--LATIN SMALL LETTER Z-->
+		<item><ascii>{</ascii><binary>01111011</binary></item><!--LEFT CURLY BRACKET-->
+		<item><ascii>|</ascii><binary>01111100</binary></item><!--VERTICAL LINE-->
+		<item><ascii>}</ascii><binary>01111101</binary></item><!--RIGHT CURLY BRACKET-->
+		<item><ascii>~</ascii><binary>01111110</binary></item><!--TILDE-->
+		<item><ascii> </ascii><binary>1100001010100000</binary></item><!--NO-BREAK SPACE-->
+		<item><ascii>¡</ascii><binary>1100001010100001</binary></item><!--INVERTED EXCLAMATION MARK-->
+		<item><ascii>¢</ascii><binary>1100001010100010</binary></item><!--CENT SIGN-->
+		<item><ascii>£</ascii><binary>1100001010100011</binary></item><!--POUND SIGN-->
+		<item><ascii>¤</ascii><binary>1100001010100100</binary></item><!--CURRENCY SIGN-->
+		<item><ascii>¥</ascii><binary>1100001010100101</binary></item><!--YEN SIGN-->
+		<item><ascii>¦</ascii><binary>1100001010100110</binary></item><!--BROKEN BAR-->
+		<item><ascii>§</ascii><binary>1100001010100111</binary></item><!--SECTION SIGN-->
+		<item><ascii>¨</ascii><binary>1100001010101000</binary></item><!--DIAERESIS-->
+		<item><ascii>©</ascii><binary>1100001010101001</binary></item><!--COPYRIGHT SIGN-->
+		<item><ascii>ª</ascii><binary>1100001010101010</binary></item><!--FEMININE ORDINAL INDICATOR-->
+		<item><ascii>«</ascii><binary>1100001010101011</binary></item><!--LEFT-POINTING DOUBLE ANGLE QUOTATION MARK-->
+		<item><ascii>¬</ascii><binary>1100001010101100</binary></item><!--NOT SIGN-->
+		<item><ascii>­</ascii><binary>1100001010101101</binary></item><!--SOFT HYPHEN-->
+		<item><ascii>®</ascii><binary>1100001010101110</binary></item><!--REGISTERED SIGN-->
+		<item><ascii>¯</ascii><binary>1100001010101111</binary></item><!--MACRON-->
+		<item><ascii>°</ascii><binary>1100001010110000</binary></item><!--DEGREE SIGN-->
+		<item><ascii>±</ascii><binary>1100001010110001</binary></item><!--PLUS-MINUS SIGN-->
+		<item><ascii>²</ascii><binary>1100001010110010</binary></item><!--SUPERSCRIPT TWO-->
+		<item><ascii>³</ascii><binary>1100001010110011</binary></item><!--SUPERSCRIPT THREE-->
+		<item><ascii>´</ascii><binary>1100001010110100</binary></item><!--ACUTE ACCENT-->
+		<item><ascii>µ</ascii><binary>1100001010110101</binary></item><!--MICRO SIGN-->
+		<item><ascii>¶</ascii><binary>1100001010110110</binary></item><!--PILCROW SIGN-->
+		<item><ascii>·</ascii><binary>1100001010110111</binary></item><!--MIDDLE DOT-->
+		<item><ascii>¸</ascii><binary>1100001010111000</binary></item><!--CEDILLA-->
+		<item><ascii>¹</ascii><binary>1100001010111001</binary></item><!--SUPERSCRIPT ONE-->
+		<item><ascii>º</ascii><binary>1100001010111010</binary></item><!--MASCULINE ORDINAL INDICATOR-->
+		<item><ascii>»</ascii><binary>1100001010111011</binary></item><!--RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK-->
+		<item><ascii>¼</ascii><binary>1100001010111100</binary></item><!--VULGAR FRACTION ONE QUARTER-->
+		<item><ascii>½</ascii><binary>1100001010111101</binary></item><!--VULGAR FRACTION ONE HALF-->
+		<item><ascii>¾</ascii><binary>1100001010111110</binary></item><!--VULGAR FRACTION THREE QUARTERS-->
+		<item><ascii>¿</ascii><binary>1100001010111111</binary></item><!--INVERTED QUESTION MARK-->
+		<item><ascii>À</ascii><binary>1100001110000000</binary></item><!--LATIN CAPITAL LETTER A WITH GRAVE-->
+		<item><ascii>Á</ascii><binary>1100001110000001</binary></item><!--LATIN CAPITAL LETTER A WITH ACUTE-->
+		<item><ascii>Â</ascii><binary>1100001110000010</binary></item><!--LATIN CAPITAL LETTER A WITH CIRCUMFLEX-->
+		<item><ascii>Ã</ascii><binary>1100001110000011</binary></item><!--LATIN CAPITAL LETTER A WITH TILDE-->
+		<item><ascii>Ä</ascii><binary>1100001110000100</binary></item><!--LATIN CAPITAL LETTER A WITH DIAERESIS-->
+		<item><ascii>Å</ascii><binary>1100001110000101</binary></item><!--LATIN CAPITAL LETTER A WITH RING ABOVE-->
+		<item><ascii>Æ</ascii><binary>1100001110000110</binary></item><!--LATIN CAPITAL LETTER AE-->
+		<item><ascii>Ç</ascii><binary>1100001110000111</binary></item><!--LATIN CAPITAL LETTER C WITH CEDILLA-->
+		<item><ascii>È</ascii><binary>1100001110001000</binary></item><!--LATIN CAPITAL LETTER E WITH GRAVE-->
+		<item><ascii>É</ascii><binary>1100001110001001</binary></item><!--LATIN CAPITAL LETTER E WITH ACUTE-->
+		<item><ascii>Ê</ascii><binary>1100001110001010</binary></item><!--LATIN CAPITAL LETTER E WITH CIRCUMFLEX-->
+		<item><ascii>Ë</ascii><binary>1100001110001011</binary></item><!--LATIN CAPITAL LETTER E WITH DIAERESIS-->
+		<item><ascii>Ì</ascii><binary>1100001110001100</binary></item><!--LATIN CAPITAL LETTER I WITH GRAVE-->
+		<item><ascii>Í</ascii><binary>1100001110001101</binary></item><!--LATIN CAPITAL LETTER I WITH ACUTE-->
+		<item><ascii>Î</ascii><binary>1100001110001110</binary></item><!--LATIN CAPITAL LETTER I WITH CIRCUMFLEX-->
+		<item><ascii>Ï</ascii><binary>1100001110001111</binary></item><!--LATIN CAPITAL LETTER I WITH DIAERESIS-->
+		<item><ascii>Ð</ascii><binary>1100001110010000</binary></item><!--LATIN CAPITAL LETTER ETH-->
+		<item><ascii>Ñ</ascii><binary>1100001110010001</binary></item><!--LATIN CAPITAL LETTER N WITH TILDE-->
+		<item><ascii>Ò</ascii><binary>1100001110010010</binary></item><!--LATIN CAPITAL LETTER O WITH GRAVE-->
+		<item><ascii>Ó</ascii><binary>1100001110010011</binary></item><!--LATIN CAPITAL LETTER O WITH ACUTE-->
+		<item><ascii>Ô</ascii><binary>1100001110010100</binary></item><!--LATIN CAPITAL LETTER O WITH CIRCUMFLEX-->
+		<item><ascii>Õ</ascii><binary>1100001110010101</binary></item><!--LATIN CAPITAL LETTER O WITH TILDE-->
+		<item><ascii>Ö</ascii><binary>1100001110010110</binary></item><!--LATIN CAPITAL LETTER O WITH DIAERESIS-->
+		<item><ascii>×</ascii><binary>1100001110010111</binary></item><!--MULTIPLICATION SIGN-->
+		<item><ascii>Ø</ascii><binary>1100001110011000</binary></item><!--LATIN CAPITAL LETTER O WITH STROKE-->
+		<item><ascii>Ù</ascii><binary>1100001110011001</binary></item><!--LATIN CAPITAL LETTER U WITH GRAVE-->
+		<item><ascii>Ú</ascii><binary>1100001110011010</binary></item><!--LATIN CAPITAL LETTER U WITH ACUTE-->
+		<item><ascii>Û</ascii><binary>1100001110011011</binary></item><!--LATIN CAPITAL LETTER U WITH CIRCUMFLEX-->
+		<item><ascii>Ü</ascii><binary>1100001110011100</binary></item><!--LATIN CAPITAL LETTER U WITH DIAERESIS-->
+		<item><ascii>Ý</ascii><binary>1100001110011101</binary></item><!--LATIN CAPITAL LETTER Y WITH ACUTE-->
+		<item><ascii>Þ</ascii><binary>1100001110011110</binary></item><!--LATIN CAPITAL LETTER THORN-->
+		<item><ascii>ß</ascii><binary>1100001110011111</binary></item><!--LATIN SMALL LETTER SHARP S-->
+		<item><ascii>à</ascii><binary>1100001110100000</binary></item><!--LATIN SMALL LETTER A WITH GRAVE-->
+		<item><ascii>á</ascii><binary>1100001110100001</binary></item><!--LATIN SMALL LETTER A WITH ACUTE-->
+		<item><ascii>â</ascii><binary>1100001110100010</binary></item><!--LATIN SMALL LETTER A WITH CIRCUMFLEX-->
+		<item><ascii>ã</ascii><binary>1100001110100011</binary></item><!--LATIN SMALL LETTER A WITH TILDE-->
+		<item><ascii>ä</ascii><binary>1100001110100100</binary></item><!--LATIN SMALL LETTER A WITH DIAERESIS-->
+		<item><ascii>å</ascii><binary>1100001110100101</binary></item><!--LATIN SMALL LETTER A WITH RING ABOVE-->
+		<item><ascii>æ</ascii><binary>1100001110100110</binary></item><!--LATIN SMALL LETTER AE-->
+		<item><ascii>ç</ascii><binary>1100001110100111</binary></item><!--LATIN SMALL LETTER C WITH CEDILLA-->
+		<item><ascii>è</ascii><binary>1100001110101000</binary></item><!--LATIN SMALL LETTER E WITH GRAVE-->
+		<item><ascii>é</ascii><binary>1100001110101001</binary></item><!--LATIN SMALL LETTER E WITH ACUTE-->
+		<item><ascii>ê</ascii><binary>1100001110101010</binary></item><!--LATIN SMALL LETTER E WITH CIRCUMFLEX-->
+		<item><ascii>ë</ascii><binary>1100001110101011</binary></item><!--LATIN SMALL LETTER E WITH DIAERESIS-->
+		<item><ascii>ì</ascii><binary>1100001110101100</binary></item><!--LATIN SMALL LETTER I WITH GRAVE-->
+		<item><ascii>í</ascii><binary>1100001110101101</binary></item><!--LATIN SMALL LETTER I WITH ACUTE-->
+		<item><ascii>î</ascii><binary>1100001110101110</binary></item><!--LATIN SMALL LETTER I WITH CIRCUMFLEX-->
+		<item><ascii>ï</ascii><binary>1100001110101111</binary></item><!--LATIN SMALL LETTER I WITH DIAERESIS-->
+		<item><ascii>ð</ascii><binary>1100001110110000</binary></item><!--LATIN SMALL LETTER ETH-->
+		<item><ascii>ñ</ascii><binary>1100001110110001</binary></item><!--LATIN SMALL LETTER N WITH TILDE-->
+		<item><ascii>ò</ascii><binary>1100001110110010</binary></item><!--LATIN SMALL LETTER O WITH GRAVE-->
+		<item><ascii>ó</ascii><binary>1100001110110011</binary></item><!--LATIN SMALL LETTER O WITH ACUTE-->
+		<item><ascii>ô</ascii><binary>1100001110110100</binary></item><!--LATIN SMALL LETTER O WITH CIRCUMFLEX-->
+		<item><ascii>õ</ascii><binary>1100001110110101</binary></item><!--LATIN SMALL LETTER O WITH TILDE-->
+		<item><ascii>ö</ascii><binary>1100001110110110</binary></item><!--LATIN SMALL LETTER O WITH DIAERESIS-->
+		<item><ascii>÷</ascii><binary>1100001110110111</binary></item><!--DIVISION SIGN-->
+		<item><ascii>ø</ascii><binary>1100001110111000</binary></item><!--LATIN SMALL LETTER O WITH STROKE-->
+		<item><ascii>ù</ascii><binary>1100001110111001</binary></item><!--LATIN SMALL LETTER U WITH GRAVE-->
+		<item><ascii>ú</ascii><binary>1100001110111010</binary></item><!--LATIN SMALL LETTER U WITH ACUTE-->
+		<item><ascii>û</ascii><binary>1100001110111011</binary></item><!--LATIN SMALL LETTER U WITH CIRCUMFLEX-->
+		<item><ascii>ü</ascii><binary>1100001110111100</binary></item><!--LATIN SMALL LETTER U WITH DIAERESIS-->
+		<item><ascii>ý</ascii><binary>1100001110111101</binary></item><!--LATIN SMALL LETTER Y WITH ACUTE-->
+		<item><ascii>þ</ascii><binary>1100001110111110</binary></item><!--LATIN SMALL LETTER THORN-->
+		<item><ascii>ÿ</ascii><binary>1100001110111111</binary></item><!--LATIN SMALL LETTER Y WITH DIAERESIS-->
+		<item><ascii>Ā</ascii><binary>1100010010000000</binary></item><!--LATIN CAPITAL LETTER A WITH MACRON-->
+		<item><ascii>ā</ascii><binary>1100010010000001</binary></item><!--LATIN SMALL LETTER A WITH MACRON-->
+		<item><ascii>Ă</ascii><binary>1100010010000010</binary></item><!--LATIN CAPITAL LETTER A WITH BREVE-->
+		<item><ascii>ă</ascii><binary>1100010010000011</binary></item><!--LATIN SMALL LETTER A WITH BREVE-->
+		<item><ascii>Ą</ascii><binary>1100010010000100</binary></item><!--LATIN CAPITAL LETTER A WITH OGONEK-->
+		<item><ascii>ą</ascii><binary>1100010010000101</binary></item><!--LATIN SMALL LETTER A WITH OGONEK-->
+		<item><ascii>Ć</ascii><binary>1100010010000110</binary></item><!--LATIN CAPITAL LETTER C WITH ACUTE-->
+		<item><ascii>ć</ascii><binary>1100010010000111</binary></item><!--LATIN SMALL LETTER C WITH ACUTE-->
+		<item><ascii>Ĉ</ascii><binary>1100010010001000</binary></item><!--LATIN CAPITAL LETTER C WITH CIRCUMFLEX-->
+		<item><ascii>ĉ</ascii><binary>1100010010001001</binary></item><!--LATIN SMALL LETTER C WITH CIRCUMFLEX-->
+		<item><ascii>Ċ</ascii><binary>1100010010001010</binary></item><!--LATIN CAPITAL LETTER C WITH DOT ABOVE-->
+		<item><ascii>ċ</ascii><binary>1100010010001011</binary></item><!--LATIN SMALL LETTER C WITH DOT ABOVE-->
+		<item><ascii>Č</ascii><binary>1100010010001100</binary></item><!--LATIN CAPITAL LETTER C WITH CARON-->
+		<item><ascii>č</ascii><binary>1100010010001101</binary></item><!--LATIN SMALL LETTER C WITH CARON-->
+		<item><ascii>Ď</ascii><binary>1100010010001110</binary></item><!--LATIN CAPITAL LETTER D WITH CARON-->
+		<item><ascii>ď</ascii><binary>1100010010001111</binary></item><!--LATIN SMALL LETTER D WITH CARON-->
+		<item><ascii>Đ</ascii><binary>1100010010010000</binary></item><!--LATIN CAPITAL LETTER D WITH STROKE-->
+		<item><ascii>đ</ascii><binary>1100010010010001</binary></item><!--LATIN SMALL LETTER D WITH STROKE-->
+		<item><ascii>Ē</ascii><binary>1100010010010010</binary></item><!--LATIN CAPITAL LETTER E WITH MACRON-->
+		<item><ascii>ē</ascii><binary>1100010010010011</binary></item><!--LATIN SMALL LETTER E WITH MACRON-->
+		<item><ascii>Ĕ</ascii><binary>1100010010010100</binary></item><!--LATIN CAPITAL LETTER E WITH BREVE-->
+		<item><ascii>ĕ</ascii><binary>1100010010010101</binary></item><!--LATIN SMALL LETTER E WITH BREVE-->
+		<item><ascii>Ė</ascii><binary>1100010010010110</binary></item><!--LATIN CAPITAL LETTER E WITH DOT ABOVE-->
+		<item><ascii>ė</ascii><binary>1100010010010111</binary></item><!--LATIN SMALL LETTER E WITH DOT ABOVE-->
+		<item><ascii>Ę</ascii><binary>1100010010011000</binary></item><!--LATIN CAPITAL LETTER E WITH OGONEK-->
+		<item><ascii>ę</ascii><binary>1100010010011001</binary></item><!--LATIN SMALL LETTER E WITH OGONEK-->
+		<item><ascii>Ě</ascii><binary>1100010010011010</binary></item><!--LATIN CAPITAL LETTER E WITH CARON-->
+		<item><ascii>ě</ascii><binary>1100010010011011</binary></item><!--LATIN SMALL LETTER E WITH CARON-->
+		<item><ascii>Ĝ</ascii><binary>1100010010011100</binary></item><!--LATIN CAPITAL LETTER G WITH CIRCUMFLEX-->
+		<item><ascii>ĝ</ascii><binary>1100010010011101</binary></item><!--LATIN SMALL LETTER G WITH CIRCUMFLEX-->
+		<item><ascii>Ğ</ascii><binary>1100010010011110</binary></item><!--LATIN CAPITAL LETTER G WITH BREVE-->
+		<item><ascii>ğ</ascii><binary>1100010010011111</binary></item><!--LATIN SMALL LETTER G WITH BREVE-->
+		<item><ascii>Ġ</ascii><binary>1100010010100000</binary></item><!--LATIN CAPITAL LETTER G WITH DOT ABOVE-->
+		<item><ascii>ġ</ascii><binary>1100010010100001</binary></item><!--LATIN SMALL LETTER G WITH DOT ABOVE-->
+		<item><ascii>Ģ</ascii><binary>1100010010100010</binary></item><!--LATIN CAPITAL LETTER G WITH CEDILLA-->
+		<item><ascii>ģ</ascii><binary>1100010010100011</binary></item><!--LATIN SMALL LETTER G WITH CEDILLA-->
+		<item><ascii>Ĥ</ascii><binary>1100010010100100</binary></item><!--LATIN CAPITAL LETTER H WITH CIRCUMFLEX-->
+		<item><ascii>ĥ</ascii><binary>1100010010100101</binary></item><!--LATIN SMALL LETTER H WITH CIRCUMFLEX-->
+		<item><ascii>Ħ</ascii><binary>1100010010100110</binary></item><!--LATIN CAPITAL LETTER H WITH STROKE-->
+		<item><ascii>ħ</ascii><binary>1100010010100111</binary></item><!--LATIN SMALL LETTER H WITH STROKE-->
+		<item><ascii>Ĩ</ascii><binary>1100010010101000</binary></item><!--LATIN CAPITAL LETTER I WITH TILDE-->
+		<item><ascii>ĩ</ascii><binary>1100010010101001</binary></item><!--LATIN SMALL LETTER I WITH TILDE-->
+		<item><ascii>Ī</ascii><binary>1100010010101010</binary></item><!--LATIN CAPITAL LETTER I WITH MACRON-->
+		<item><ascii>ī</ascii><binary>1100010010101011</binary></item><!--LATIN SMALL LETTER I WITH MACRON-->
+		<item><ascii>Ĭ</ascii><binary>1100010010101100</binary></item><!--LATIN CAPITAL LETTER I WITH BREVE-->
+		<item><ascii>ĭ</ascii><binary>1100010010101101</binary></item><!--LATIN SMALL LETTER I WITH BREVE-->
+		<item><ascii>Į</ascii><binary>1100010010101110</binary></item><!--LATIN CAPITAL LETTER I WITH OGONEK-->
+		<item><ascii>į</ascii><binary>1100010010101111</binary></item><!--LATIN SMALL LETTER I WITH OGONEK-->
+		<item><ascii>İ</ascii><binary>1100010010110000</binary></item><!--LATIN CAPITAL LETTER I WITH DOT ABOVE-->
+		<item><ascii>ı</ascii><binary>1100010010110001</binary></item><!--LATIN SMALL LETTER DOTLESS I-->
+		<item><ascii>Ĳ</ascii><binary>1100010010110010</binary></item><!--LATIN CAPITAL LIGATURE IJ-->
+		<item><ascii>ĳ</ascii><binary>1100010010110011</binary></item><!--LATIN SMALL LIGATURE IJ-->
+		<item><ascii>Ĵ</ascii><binary>1100010010110100</binary></item><!--LATIN CAPITAL LETTER J WITH CIRCUMFLEX-->
+		<item><ascii>ĵ</ascii><binary>1100010010110101</binary></item><!--LATIN SMALL LETTER J WITH CIRCUMFLEX-->
+		<item><ascii>Ķ</ascii><binary>1100010010110110</binary></item><!--LATIN CAPITAL LETTER K WITH CEDILLA-->
+		<item><ascii>ķ</ascii><binary>1100010010110111</binary></item><!--LATIN SMALL LETTER K WITH CEDILLA-->
+		<item><ascii>ĸ</ascii><binary>1100010010111000</binary></item><!--LATIN SMALL LETTER KRA-->
+		<item><ascii>Ĺ</ascii><binary>1100010010111001</binary></item><!--LATIN CAPITAL LETTER L WITH ACUTE-->
+		<item><ascii>ĺ</ascii><binary>1100010010111010</binary></item><!--LATIN SMALL LETTER L WITH ACUTE-->
+		<item><ascii>Ļ</ascii><binary>1100010010111011</binary></item><!--LATIN CAPITAL LETTER L WITH CEDILLA-->
+		<item><ascii>ļ</ascii><binary>1100010010111100</binary></item><!--LATIN SMALL LETTER L WITH CEDILLA-->
+		<item><ascii>Ľ</ascii><binary>1100010010111101</binary></item><!--LATIN CAPITAL LETTER L WITH CARON-->
+		<item><ascii>ľ</ascii><binary>1100010010111110</binary></item><!--LATIN SMALL LETTER L WITH CARON-->
+		<item><ascii>Ŀ</ascii><binary>1100010010111111</binary></item><!--LATIN CAPITAL LETTER L WITH MIDDLE DOT-->
+		<item><ascii>ŀ</ascii><binary>1100010110000000</binary></item><!--LATIN SMALL LETTER L WITH MIDDLE DOT-->
+		<item><ascii>Ł</ascii><binary>1100010110000001</binary></item><!--LATIN CAPITAL LETTER L WITH STROKE-->
+		<item><ascii>ł</ascii><binary>1100010110000010</binary></item><!--LATIN SMALL LETTER L WITH STROKE-->
+		<item><ascii>Ń</ascii><binary>1100010110000011</binary></item><!--LATIN CAPITAL LETTER N WITH ACUTE-->
+		<item><ascii>ń</ascii><binary>1100010110000100</binary></item><!--LATIN SMALL LETTER N WITH ACUTE-->
+		<item><ascii>Ņ</ascii><binary>1100010110000101</binary></item><!--LATIN CAPITAL LETTER N WITH CEDILLA-->
+		<item><ascii>ņ</ascii><binary>1100010110000110</binary></item><!--LATIN SMALL LETTER N WITH CEDILLA-->
+		<item><ascii>Ň</ascii><binary>1100010110000111</binary></item><!--LATIN CAPITAL LETTER N WITH CARON-->
+		<item><ascii>ň</ascii><binary>1100010110001000</binary></item><!--LATIN SMALL LETTER N WITH CARON-->
+		<item><ascii>ŉ</ascii><binary>1100010110001001</binary></item><!--LATIN SMALL LETTER N PRECEDED BY APOSTROPHE-->
+		<item><ascii>Ŋ</ascii><binary>1100010110001010</binary></item><!--LATIN CAPITAL LETTER ENG-->
+		<item><ascii>ŋ</ascii><binary>1100010110001011</binary></item><!--LATIN SMALL LETTER ENG-->
+		<item><ascii>Ō</ascii><binary>1100010110001100</binary></item><!--LATIN CAPITAL LETTER O WITH MACRON-->
+		<item><ascii>ō</ascii><binary>1100010110001101</binary></item><!--LATIN SMALL LETTER O WITH MACRON-->
+		<item><ascii>Ŏ</ascii><binary>1100010110001110</binary></item><!--LATIN CAPITAL LETTER O WITH BREVE-->
+		<item><ascii>ŏ</ascii><binary>1100010110001111</binary></item><!--LATIN SMALL LETTER O WITH BREVE-->
+		<item><ascii>Ő</ascii><binary>1100010110010000</binary></item><!--LATIN CAPITAL LETTER O WITH DOUBLE ACUTE-->
+		<item><ascii>ő</ascii><binary>1100010110010001</binary></item><!--LATIN SMALL LETTER O WITH DOUBLE ACUTE-->
+		<item><ascii>Œ</ascii><binary>1100010110010010</binary></item><!--LATIN CAPITAL LIGATURE OE-->
+		<item><ascii>œ</ascii><binary>1100010110010011</binary></item><!--LATIN SMALL LIGATURE OE-->
+		<item><ascii>Ŕ</ascii><binary>1100010110010100</binary></item><!--LATIN CAPITAL LETTER R WITH ACUTE-->
+		<item><ascii>ŕ</ascii><binary>1100010110010101</binary></item><!--LATIN SMALL LETTER R WITH ACUTE-->
+		<item><ascii>Ŗ</ascii><binary>1100010110010110</binary></item><!--LATIN CAPITAL LETTER R WITH CEDILLA-->
+		<item><ascii>ŗ</ascii><binary>1100010110010111</binary></item><!--LATIN SMALL LETTER R WITH CEDILLA-->
+		<item><ascii>Ř</ascii><binary>1100010110011000</binary></item><!--LATIN CAPITAL LETTER R WITH CARON-->
+		<item><ascii>ř</ascii><binary>1100010110011001</binary></item><!--LATIN SMALL LETTER R WITH CARON-->
+		<item><ascii>Ś</ascii><binary>1100010110011010</binary></item><!--LATIN CAPITAL LETTER S WITH ACUTE-->
+		<item><ascii>ś</ascii><binary>1100010110011011</binary></item><!--LATIN SMALL LETTER S WITH ACUTE-->
+		<item><ascii>Ŝ</ascii><binary>1100010110011100</binary></item><!--LATIN CAPITAL LETTER S WITH CIRCUMFLEX-->
+		<item><ascii>ŝ</ascii><binary>1100010110011101</binary></item><!--LATIN SMALL LETTER S WITH CIRCUMFLEX-->
+		<item><ascii>Ş</ascii><binary>1100010110011110</binary></item><!--LATIN CAPITAL LETTER S WITH CEDILLA-->
+		<item><ascii>ş</ascii><binary>1100010110011111</binary></item><!--LATIN SMALL LETTER S WITH CEDILLA-->
+		<item><ascii>Š</ascii><binary>1100010110100000</binary></item><!--LATIN CAPITAL LETTER S WITH CARON-->
+		<item><ascii>š</ascii><binary>1100010110100001</binary></item><!--LATIN SMALL LETTER S WITH CARON-->
+		<item><ascii>Ţ</ascii><binary>1100010110100010</binary></item><!--LATIN CAPITAL LETTER T WITH CEDILLA-->
+		<item><ascii>ţ</ascii><binary>1100010110100011</binary></item><!--LATIN SMALL LETTER T WITH CEDILLA-->
+		<item><ascii>Ť</ascii><binary>1100010110100100</binary></item><!--LATIN CAPITAL LETTER T WITH CARON-->
+		<item><ascii>ť</ascii><binary>1100010110100101</binary></item><!--LATIN SMALL LETTER T WITH CARON-->
+		<item><ascii>Ŧ</ascii><binary>1100010110100110</binary></item><!--LATIN CAPITAL LETTER T WITH STROKE-->
+		<item><ascii>ŧ</ascii><binary>1100010110100111</binary></item><!--LATIN SMALL LETTER T WITH STROKE-->
+		<item><ascii>Ũ</ascii><binary>1100010110101000</binary></item><!--LATIN CAPITAL LETTER U WITH TILDE-->
+		<item><ascii>ũ</ascii><binary>1100010110101001</binary></item><!--LATIN SMALL LETTER U WITH TILDE-->
+		<item><ascii>Ū</ascii><binary>1100010110101010</binary></item><!--LATIN CAPITAL LETTER U WITH MACRON-->
+		<item><ascii>ū</ascii><binary>1100010110101011</binary></item><!--LATIN SMALL LETTER U WITH MACRON-->
+		<item><ascii>Ŭ</ascii><binary>1100010110101100</binary></item><!--LATIN CAPITAL LETTER U WITH BREVE-->
+		<item><ascii>ŭ</ascii><binary>1100010110101101</binary></item><!--LATIN SMALL LETTER U WITH BREVE-->
+		<item><ascii>Ů</ascii><binary>1100010110101110</binary></item><!--LATIN CAPITAL LETTER U WITH RING ABOVE-->
+		<item><ascii>ů</ascii><binary>1100010110101111</binary></item><!--LATIN SMALL LETTER U WITH RING ABOVE-->
+		<item><ascii>Ű</ascii><binary>1100010110110000</binary></item><!--LATIN CAPITAL LETTER U WITH DOUBLE ACUTE-->
+		<item><ascii>ű</ascii><binary>1100010110110001</binary></item><!--LATIN SMALL LETTER U WITH DOUBLE ACUTE-->
+		<item><ascii>Ų</ascii><binary>1100010110110010</binary></item><!--LATIN CAPITAL LETTER U WITH OGONEK-->
+		<item><ascii>ų</ascii><binary>1100010110110011</binary></item><!--LATIN SMALL LETTER U WITH OGONEK-->
+		<item><ascii>Ŵ</ascii><binary>1100010110110100</binary></item><!--LATIN CAPITAL LETTER W WITH CIRCUMFLEX-->
+		<item><ascii>ŵ</ascii><binary>1100010110110101</binary></item><!--LATIN SMALL LETTER W WITH CIRCUMFLEX-->
+		<item><ascii>Ŷ</ascii><binary>1100010110110110</binary></item><!--LATIN CAPITAL LETTER Y WITH CIRCUMFLEX-->
+		<item><ascii>ŷ</ascii><binary>1100010110110111</binary></item><!--LATIN SMALL LETTER Y WITH CIRCUMFLEX-->
+		<item><ascii>Ÿ</ascii><binary>1100010110111000</binary></item><!--LATIN CAPITAL LETTER Y WITH DIAERESIS-->
+		<item><ascii>Ź</ascii><binary>1100010110111001</binary></item><!--LATIN CAPITAL LETTER Z WITH ACUTE-->
+		<item><ascii>ź</ascii><binary>1100010110111010</binary></item><!--LATIN SMALL LETTER Z WITH ACUTE-->
+		<item><ascii>Ż</ascii><binary>1100010110111011</binary></item><!--LATIN CAPITAL LETTER Z WITH DOT ABOVE-->
+		<item><ascii>ż</ascii><binary>1100010110111100</binary></item><!--LATIN SMALL LETTER Z WITH DOT ABOVE-->
+		<item><ascii>Ž</ascii><binary>1100010110111101</binary></item><!--LATIN CAPITAL LETTER Z WITH CARON-->
+		<item><ascii>ž</ascii><binary>1100010110111110</binary></item><!--LATIN SMALL LETTER Z WITH CARON-->
+		<item><ascii>ſ</ascii><binary>1100010110111111</binary></item><!--LATIN SMALL LETTER LONG S-->
+		<item><ascii>ƀ</ascii><binary>1100011010000000</binary></item><!--LATIN SMALL LETTER B WITH STROKE-->
+		<item><ascii>Ɓ</ascii><binary>1100011010000001</binary></item><!--LATIN CAPITAL LETTER B WITH HOOK-->
+		<item><ascii>Ƃ</ascii><binary>1100011010000010</binary></item><!--LATIN CAPITAL LETTER B WITH TOPBAR-->
+		<item><ascii>ƃ</ascii><binary>1100011010000011</binary></item><!--LATIN SMALL LETTER B WITH TOPBAR-->
+		<item><ascii>Ƅ</ascii><binary>1100011010000100</binary></item><!--LATIN CAPITAL LETTER TONE SIX-->
+		<item><ascii>ƅ</ascii><binary>1100011010000101</binary></item><!--LATIN SMALL LETTER TONE SIX-->
+		<item><ascii>Ɔ</ascii><binary>1100011010000110</binary></item><!--LATIN CAPITAL LETTER OPEN O-->
+		<item><ascii>Ƈ</ascii><binary>1100011010000111</binary></item><!--LATIN CAPITAL LETTER C WITH HOOK-->
+		<item><ascii>ƈ</ascii><binary>1100011010001000</binary></item><!--LATIN SMALL LETTER C WITH HOOK-->
+		<item><ascii>Ɖ</ascii><binary>1100011010001001</binary></item><!--LATIN CAPITAL LETTER AFRICAN D-->
+		<item><ascii>Ɗ</ascii><binary>1100011010001010</binary></item><!--LATIN CAPITAL LETTER D WITH HOOK-->
+		<item><ascii>Ƌ</ascii><binary>1100011010001011</binary></item><!--LATIN CAPITAL LETTER D WITH TOPBAR-->
+		<item><ascii>ƌ</ascii><binary>1100011010001100</binary></item><!--LATIN SMALL LETTER D WITH TOPBAR-->
+		<item><ascii>ƍ</ascii><binary>1100011010001101</binary></item><!--LATIN SMALL LETTER TURNED DELTA-->
+		<item><ascii>Ǝ</ascii><binary>1100011010001110</binary></item><!--LATIN CAPITAL LETTER REVERSED E-->
+		<item><ascii>Ə</ascii><binary>1100011010001111</binary></item><!--LATIN CAPITAL LETTER SCHWA-->
+		<item><ascii>Ɛ</ascii><binary>1100011010010000</binary></item><!--LATIN CAPITAL LETTER OPEN E-->
+		<item><ascii>Ƒ</ascii><binary>1100011010010001</binary></item><!--LATIN CAPITAL LETTER F WITH HOOK-->
+		<item><ascii>ƒ</ascii><binary>1100011010010010</binary></item><!--LATIN SMALL LETTER F WITH HOOK-->
+		<item><ascii>Ɠ</ascii><binary>1100011010010011</binary></item><!--LATIN CAPITAL LETTER G WITH HOOK-->
+		<item><ascii>Ɣ</ascii><binary>1100011010010100</binary></item><!--LATIN CAPITAL LETTER GAMMA-->
+		<item><ascii>ƕ</ascii><binary>1100011010010101</binary></item><!--LATIN SMALL LETTER HV-->
+		<item><ascii>Ɩ</ascii><binary>1100011010010110</binary></item><!--LATIN CAPITAL LETTER IOTA-->
+		<item><ascii>Ɨ</ascii><binary>1100011010010111</binary></item><!--LATIN CAPITAL LETTER I WITH STROKE-->
+		<item><ascii>Ƙ</ascii><binary>1100011010011000</binary></item><!--LATIN CAPITAL LETTER K WITH HOOK-->
+		<item><ascii>ƙ</ascii><binary>1100011010011001</binary></item><!--LATIN SMALL LETTER K WITH HOOK-->
+		<item><ascii>ƚ</ascii><binary>1100011010011010</binary></item><!--LATIN SMALL LETTER L WITH BAR-->
+		<item><ascii>ƛ</ascii><binary>1100011010011011</binary></item><!--LATIN SMALL LETTER LAMBDA WITH STROKE-->
+		<item><ascii>Ɯ</ascii><binary>1100011010011100</binary></item><!--LATIN CAPITAL LETTER TURNED M-->
+		<item><ascii>Ɲ</ascii><binary>1100011010011101</binary></item><!--LATIN CAPITAL LETTER N WITH LEFT HOOK-->
+		<item><ascii>ƞ</ascii><binary>1100011010011110</binary></item><!--LATIN SMALL LETTER N WITH LONG RIGHT LEG-->
+		<item><ascii>Ɵ</ascii><binary>1100011010011111</binary></item><!--LATIN CAPITAL LETTER O WITH MIDDLE TILDE-->
+		<item><ascii>Ơ</ascii><binary>1100011010100000</binary></item><!--LATIN CAPITAL LETTER O WITH HORN-->
+		<item><ascii>ơ</ascii><binary>1100011010100001</binary></item><!--LATIN SMALL LETTER O WITH HORN-->
+		<item><ascii>Ƣ</ascii><binary>1100011010100010</binary></item><!--LATIN CAPITAL LETTER OI-->
+		<item><ascii>ƣ</ascii><binary>1100011010100011</binary></item><!--LATIN SMALL LETTER OI-->
+		<item><ascii>Ƥ</ascii><binary>1100011010100100</binary></item><!--LATIN CAPITAL LETTER P WITH HOOK-->
+		<item><ascii>ƥ</ascii><binary>1100011010100101</binary></item><!--LATIN SMALL LETTER P WITH HOOK-->
+		<item><ascii>Ʀ</ascii><binary>1100011010100110</binary></item><!--LATIN LETTER YR-->
+		<item><ascii>Ƨ</ascii><binary>1100011010100111</binary></item><!--LATIN CAPITAL LETTER TONE TWO-->
+		<item><ascii>ƨ</ascii><binary>1100011010101000</binary></item><!--LATIN SMALL LETTER TONE TWO-->
+		<item><ascii>Ʃ</ascii><binary>1100011010101001</binary></item><!--LATIN CAPITAL LETTER ESH-->
+		<item><ascii>ƪ</ascii><binary>1100011010101010</binary></item><!--LATIN LETTER REVERSED ESH LOOP-->
+		<item><ascii>ƫ</ascii><binary>1100011010101011</binary></item><!--LATIN SMALL LETTER T WITH PALATAL HOOK-->
+		<item><ascii>Ƭ</ascii><binary>1100011010101100</binary></item><!--LATIN CAPITAL LETTER T WITH HOOK-->
+		<item><ascii>ƭ</ascii><binary>1100011010101101</binary></item><!--LATIN SMALL LETTER T WITH HOOK-->
+		<item><ascii>Ʈ</ascii><binary>1100011010101110</binary></item><!--LATIN CAPITAL LETTER T WITH RETROFLEX HOOK-->
+		<item><ascii>Ư</ascii><binary>1100011010101111</binary></item><!--LATIN CAPITAL LETTER U WITH HORN-->
+		<item><ascii>ư</ascii><binary>1100011010110000</binary></item><!--LATIN SMALL LETTER U WITH HORN-->
+		<item><ascii>Ʊ</ascii><binary>1100011010110001</binary></item><!--LATIN CAPITAL LETTER UPSILON-->
+		<item><ascii>Ʋ</ascii><binary>1100011010110010</binary></item><!--LATIN CAPITAL LETTER V WITH HOOK-->
+		<item><ascii>Ƴ</ascii><binary>1100011010110011</binary></item><!--LATIN CAPITAL LETTER Y WITH HOOK-->
+		<item><ascii>ƴ</ascii><binary>1100011010110100</binary></item><!--LATIN SMALL LETTER Y WITH HOOK-->
+		<item><ascii>Ƶ</ascii><binary>1100011010110101</binary></item><!--LATIN CAPITAL LETTER Z WITH STROKE-->
+		<item><ascii>ƶ</ascii><binary>1100011010110110</binary></item><!--LATIN SMALL LETTER Z WITH STROKE-->
+		<item><ascii>Ʒ</ascii><binary>1100011010110111</binary></item><!--LATIN CAPITAL LETTER EZH-->
+		<item><ascii>Ƹ</ascii><binary>1100011010111000</binary></item><!--LATIN CAPITAL LETTER EZH REVERSED-->
+		<item><ascii>ƹ</ascii><binary>1100011010111001</binary></item><!--LATIN SMALL LETTER EZH REVERSED-->
+		<item><ascii>ƺ</ascii><binary>1100011010111010</binary></item><!--LATIN SMALL LETTER EZH WITH TAIL-->
+		<item><ascii>ƻ</ascii><binary>1100011010111011</binary></item><!--LATIN LETTER TWO WITH STROKE-->
+		<item><ascii>Ƽ</ascii><binary>1100011010111100</binary></item><!--LATIN CAPITAL LETTER TONE FIVE-->
+		<item><ascii>ƽ</ascii><binary>1100011010111101</binary></item><!--LATIN SMALL LETTER TONE FIVE-->
+		<item><ascii>ƾ</ascii><binary>1100011010111110</binary></item><!--LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE-->
+		<item><ascii>ƿ</ascii><binary>1100011010111111</binary></item><!--LATIN LETTER WYNN-->
+		<item><ascii>ǀ</ascii><binary>1100011110000000</binary></item><!--LATIN LETTER DENTAL CLICK-->
+		<item><ascii>ǁ</ascii><binary>1100011110000001</binary></item><!--LATIN LETTER LATERAL CLICK-->
+		<item><ascii>ǂ</ascii><binary>1100011110000010</binary></item><!--LATIN LETTER ALVEOLAR CLICK-->
+		<item><ascii>ǃ</ascii><binary>1100011110000011</binary></item><!--LATIN LETTER RETROFLEX CLICK-->
+		<item><ascii>Ǆ</ascii><binary>1100011110000100</binary></item><!--LATIN CAPITAL LETTER DZ WITH CARON-->
+		<item><ascii>ǅ</ascii><binary>1100011110000101</binary></item><!--LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON-->
+		<item><ascii>ǆ</ascii><binary>1100011110000110</binary></item><!--LATIN SMALL LETTER DZ WITH CARON-->
+		<item><ascii>Ǉ</ascii><binary>1100011110000111</binary></item><!--LATIN CAPITAL LETTER LJ-->
+		<item><ascii>ǈ</ascii><binary>1100011110001000</binary></item><!--LATIN CAPITAL LETTER L WITH SMALL LETTER J-->
+		<item><ascii>ǉ</ascii><binary>1100011110001001</binary></item><!--LATIN SMALL LETTER LJ-->
+		<item><ascii>Ǌ</ascii><binary>1100011110001010</binary></item><!--LATIN CAPITAL LETTER NJ-->
+		<item><ascii>ǋ</ascii><binary>1100011110001011</binary></item><!--LATIN CAPITAL LETTER N WITH SMALL LETTER J-->
+		<item><ascii>ǌ</ascii><binary>1100011110001100</binary></item><!--LATIN SMALL LETTER NJ-->
+		<item><ascii>Ǎ</ascii><binary>1100011110001101</binary></item><!--LATIN CAPITAL LETTER A WITH CARON-->
+		<item><ascii>ǎ</ascii><binary>1100011110001110</binary></item><!--LATIN SMALL LETTER A WITH CARON-->
+		<item><ascii>Ǐ</ascii><binary>1100011110001111</binary></item><!--LATIN CAPITAL LETTER I WITH CARON-->
+		<item><ascii>ǐ</ascii><binary>1100011110010000</binary></item><!--LATIN SMALL LETTER I WITH CARON-->
+		<item><ascii>Ǒ</ascii><binary>1100011110010001</binary></item><!--LATIN CAPITAL LETTER O WITH CARON-->
+		<item><ascii>ǒ</ascii><binary>1100011110010010</binary></item><!--LATIN SMALL LETTER O WITH CARON-->
+		<item><ascii>Ǔ</ascii><binary>1100011110010011</binary></item><!--LATIN CAPITAL LETTER U WITH CARON-->
+		<item><ascii>ǔ</ascii><binary>1100011110010100</binary></item><!--LATIN SMALL LETTER U WITH CARON-->
+		<item><ascii>Ǖ</ascii><binary>1100011110010101</binary></item><!--LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON-->
+		<item><ascii>ǖ</ascii><binary>1100011110010110</binary></item><!--LATIN SMALL LETTER U WITH DIAERESIS AND MACRON-->
+		<item><ascii>Ǘ</ascii><binary>1100011110010111</binary></item><!--LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE-->
+		<item><ascii>ǘ</ascii><binary>1100011110011000</binary></item><!--LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE-->
+		<item><ascii>Ǚ</ascii><binary>1100011110011001</binary></item><!--LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON-->
+		<item><ascii>ǚ</ascii><binary>1100011110011010</binary></item><!--LATIN SMALL LETTER U WITH DIAERESIS AND CARON-->
+		<item><ascii>Ǜ</ascii><binary>1100011110011011</binary></item><!--LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE-->
+		<item><ascii>ǜ</ascii><binary>1100011110011100</binary></item><!--LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE-->
+		<item><ascii>ǝ</ascii><binary>1100011110011101</binary></item><!--LATIN SMALL LETTER TURNED E-->
+		<item><ascii>Ǟ</ascii><binary>1100011110011110</binary></item><!--LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON-->
+		<item><ascii>ǟ</ascii><binary>1100011110011111</binary></item><!--LATIN SMALL LETTER A WITH DIAERESIS AND MACRON-->
+		<item><ascii>Ǡ</ascii><binary>1100011110100000</binary></item><!--LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON-->
+		<item><ascii>ǡ</ascii><binary>1100011110100001</binary></item><!--LATIN SMALL LETTER A WITH DOT ABOVE AND MACRON-->
+		<item><ascii>Ǣ</ascii><binary>1100011110100010</binary></item><!--LATIN CAPITAL LETTER AE WITH MACRON-->
+		<item><ascii>ǣ</ascii><binary>1100011110100011</binary></item><!--LATIN SMALL LETTER AE WITH MACRON-->
+		<item><ascii>Ǥ</ascii><binary>1100011110100100</binary></item><!--LATIN CAPITAL LETTER G WITH STROKE-->
+		<item><ascii>ǥ</ascii><binary>1100011110100101</binary></item><!--LATIN SMALL LETTER G WITH STROKE-->
+		<item><ascii>Ǧ</ascii><binary>1100011110100110</binary></item><!--LATIN CAPITAL LETTER G WITH CARON-->
+		<item><ascii>ǧ</ascii><binary>1100011110100111</binary></item><!--LATIN SMALL LETTER G WITH CARON-->
+		<item><ascii>Ǩ</ascii><binary>1100011110101000</binary></item><!--LATIN CAPITAL LETTER K WITH CARON-->
+		<item><ascii>ǩ</ascii><binary>1100011110101001</binary></item><!--LATIN SMALL LETTER K WITH CARON-->
+		<item><ascii>Ǫ</ascii><binary>1100011110101010</binary></item><!--LATIN CAPITAL LETTER O WITH OGONEK-->
+		<item><ascii>ǫ</ascii><binary>1100011110101011</binary></item><!--LATIN SMALL LETTER O WITH OGONEK-->
+		<item><ascii>Ǭ</ascii><binary>1100011110101100</binary></item><!--LATIN CAPITAL LETTER O WITH OGONEK AND MACRON-->
+		<item><ascii>ǭ</ascii><binary>1100011110101101</binary></item><!--LATIN SMALL LETTER O WITH OGONEK AND MACRON-->
+		<item><ascii>Ǯ</ascii><binary>1100011110101110</binary></item><!--LATIN CAPITAL LETTER EZH WITH CARON-->
+		<item><ascii>ǯ</ascii><binary>1100011110101111</binary></item><!--LATIN SMALL LETTER EZH WITH CARON-->
+		<item><ascii>ǰ</ascii><binary>1100011110110000</binary></item><!--LATIN SMALL LETTER J WITH CARON-->
+		<item><ascii>Ǳ</ascii><binary>1100011110110001</binary></item><!--LATIN CAPITAL LETTER DZ-->
+		<item><ascii>ǲ</ascii><binary>1100011110110010</binary></item><!--LATIN CAPITAL LETTER D WITH SMALL LETTER Z-->
+		<item><ascii>ǳ</ascii><binary>1100011110110011</binary></item><!--LATIN SMALL LETTER DZ-->
+		<item><ascii>Ǵ</ascii><binary>1100011110110100</binary></item><!--LATIN CAPITAL LETTER G WITH ACUTE-->
+		<item><ascii>ǵ</ascii><binary>1100011110110101</binary></item><!--LATIN SMALL LETTER G WITH ACUTE-->
+		<item><ascii>Ƕ</ascii><binary>1100011110110110</binary></item><!--LATIN CAPITAL LETTER HWAIR-->
+		<item><ascii>Ƿ</ascii><binary>1100011110110111</binary></item><!--LATIN CAPITAL LETTER WYNN-->
+		<item><ascii>Ǹ</ascii><binary>1100011110111000</binary></item><!--LATIN CAPITAL LETTER N WITH GRAVE-->
+		<item><ascii>ǹ</ascii><binary>1100011110111001</binary></item><!--LATIN SMALL LETTER N WITH GRAVE-->
+		<item><ascii>Ǻ</ascii><binary>1100011110111010</binary></item><!--LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE-->
+		<item><ascii>ǻ</ascii><binary>1100011110111011</binary></item><!--LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE-->
+		<item><ascii>Ǽ</ascii><binary>1100011110111100</binary></item><!--LATIN CAPITAL LETTER AE WITH ACUTE-->
+		<item><ascii>ǽ</ascii><binary>1100011110111101</binary></item><!--LATIN SMALL LETTER AE WITH ACUTE-->
+		<item><ascii>Ǿ</ascii><binary>1100011110111110</binary></item><!--LATIN CAPITAL LETTER O WITH STROKE AND ACUTE-->
+		<item><ascii>ǿ</ascii><binary>1100011110111111</binary></item><!--LATIN SMALL LETTER O WITH STROKE AND ACUTE-->
+		<item><ascii>Ȁ</ascii><binary>1100100010000000</binary></item><!--LATIN CAPITAL LETTER A WITH DOUBLE GRAVE-->
+		<item><ascii>ȁ</ascii><binary>1100100010000001</binary></item><!--LATIN SMALL LETTER A WITH DOUBLE GRAVE-->
+		<item><ascii>Ȃ</ascii><binary>1100100010000010</binary></item><!--LATIN CAPITAL LETTER A WITH INVERTED BREVE-->
+		<item><ascii>ȃ</ascii><binary>1100100010000011</binary></item><!--LATIN SMALL LETTER A WITH INVERTED BREVE-->
+		<item><ascii>Ȅ</ascii><binary>1100100010000100</binary></item><!--LATIN CAPITAL LETTER E WITH DOUBLE GRAVE-->
+		<item><ascii>ȅ</ascii><binary>1100100010000101</binary></item><!--LATIN SMALL LETTER E WITH DOUBLE GRAVE-->
+		<item><ascii>Ȇ</ascii><binary>1100100010000110</binary></item><!--LATIN CAPITAL LETTER E WITH INVERTED BREVE-->
+		<item><ascii>ȇ</ascii><binary>1100100010000111</binary></item><!--LATIN SMALL LETTER E WITH INVERTED BREVE-->
+		<item><ascii>Ȉ</ascii><binary>1100100010001000</binary></item><!--LATIN CAPITAL LETTER I WITH DOUBLE GRAVE-->
+		<item><ascii>ȉ</ascii><binary>1100100010001001</binary></item><!--LATIN SMALL LETTER I WITH DOUBLE GRAVE-->
+		<item><ascii>Ȋ</ascii><binary>1100100010001010</binary></item><!--LATIN CAPITAL LETTER I WITH INVERTED BREVE-->
+		<item><ascii>ȋ</ascii><binary>1100100010001011</binary></item><!--LATIN SMALL LETTER I WITH INVERTED BREVE-->
+		<item><ascii>Ȍ</ascii><binary>1100100010001100</binary></item><!--LATIN CAPITAL LETTER O WITH DOUBLE GRAVE-->
+		<item><ascii>ȍ</ascii><binary>1100100010001101</binary></item><!--LATIN SMALL LETTER O WITH DOUBLE GRAVE-->
+		<item><ascii>Ȏ</ascii><binary>1100100010001110</binary></item><!--LATIN CAPITAL LETTER O WITH INVERTED BREVE-->
+		<item><ascii>ȏ</ascii><binary>1100100010001111</binary></item><!--LATIN SMALL LETTER O WITH INVERTED BREVE-->
+		<item><ascii>Ȑ</ascii><binary>1100100010010000</binary></item><!--LATIN CAPITAL LETTER R WITH DOUBLE GRAVE-->
+		<item><ascii>ȑ</ascii><binary>1100100010010001</binary></item><!--LATIN SMALL LETTER R WITH DOUBLE GRAVE-->
+		<item><ascii>Ȓ</ascii><binary>1100100010010010</binary></item><!--LATIN CAPITAL LETTER R WITH INVERTED BREVE-->
+		<item><ascii>ȓ</ascii><binary>1100100010010011</binary></item><!--LATIN SMALL LETTER R WITH INVERTED BREVE-->
+		<item><ascii>Ȕ</ascii><binary>1100100010010100</binary></item><!--LATIN CAPITAL LETTER U WITH DOUBLE GRAVE-->
+		<item><ascii>ȕ</ascii><binary>1100100010010101</binary></item><!--LATIN SMALL LETTER U WITH DOUBLE GRAVE-->
+		<item><ascii>Ȗ</ascii><binary>1100100010010110</binary></item><!--LATIN CAPITAL LETTER U WITH INVERTED BREVE-->
+		<item><ascii>ȗ</ascii><binary>1100100010010111</binary></item><!--LATIN SMALL LETTER U WITH INVERTED BREVE-->
+		<item><ascii>Ș</ascii><binary>1100100010011000</binary></item><!--LATIN CAPITAL LETTER S WITH COMMA BELOW-->
+		<item><ascii>ș</ascii><binary>1100100010011001</binary></item><!--LATIN SMALL LETTER S WITH COMMA BELOW-->
+		<item><ascii>Ț</ascii><binary>1100100010011010</binary></item><!--LATIN CAPITAL LETTER T WITH COMMA BELOW-->
+		<item><ascii>ț</ascii><binary>1100100010011011</binary></item><!--LATIN SMALL LETTER T WITH COMMA BELOW-->
+		<item><ascii>Ȝ</ascii><binary>1100100010011100</binary></item><!--LATIN CAPITAL LETTER YOGH-->
+		<item><ascii>ȝ</ascii><binary>1100100010011101</binary></item><!--LATIN SMALL LETTER YOGH-->
+		<item><ascii>Ȟ</ascii><binary>1100100010011110</binary></item><!--LATIN CAPITAL LETTER H WITH CARON-->
+		<item><ascii>ȟ</ascii><binary>1100100010011111</binary></item><!--LATIN SMALL LETTER H WITH CARON-->
+		<item><ascii>Ƞ</ascii><binary>1100100010100000</binary></item><!--LATIN CAPITAL LETTER N WITH LONG RIGHT LEG-->
+		<item><ascii>ȡ</ascii><binary>1100100010100001</binary></item><!--LATIN SMALL LETTER D WITH CURL-->
+		<item><ascii>Ȣ</ascii><binary>1100100010100010</binary></item><!--LATIN CAPITAL LETTER OU-->
+		<item><ascii>ȣ</ascii><binary>1100100010100011</binary></item><!--LATIN SMALL LETTER OU-->
+		<item><ascii>Ȥ</ascii><binary>1100100010100100</binary></item><!--LATIN CAPITAL LETTER Z WITH HOOK-->
+		<item><ascii>ȥ</ascii><binary>1100100010100101</binary></item><!--LATIN SMALL LETTER Z WITH HOOK-->
+		<item><ascii>Ȧ</ascii><binary>1100100010100110</binary></item><!--LATIN CAPITAL LETTER A WITH DOT ABOVE-->
+		<item><ascii>ȧ</ascii><binary>1100100010100111</binary></item><!--LATIN SMALL LETTER A WITH DOT ABOVE-->
+		<item><ascii>Ȩ</ascii><binary>1100100010101000</binary></item><!--LATIN CAPITAL LETTER E WITH CEDILLA-->
+		<item><ascii>ȩ</ascii><binary>1100100010101001</binary></item><!--LATIN SMALL LETTER E WITH CEDILLA-->
+		<item><ascii>Ȫ</ascii><binary>1100100010101010</binary></item><!--LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON-->
+		<item><ascii>ȫ</ascii><binary>1100100010101011</binary></item><!--LATIN SMALL LETTER O WITH DIAERESIS AND MACRON-->
+		<item><ascii>Ȭ</ascii><binary>1100100010101100</binary></item><!--LATIN CAPITAL LETTER O WITH TILDE AND MACRON-->
+		<item><ascii>ȭ</ascii><binary>1100100010101101</binary></item><!--LATIN SMALL LETTER O WITH TILDE AND MACRON-->
+		<item><ascii>Ȯ</ascii><binary>1100100010101110</binary></item><!--LATIN CAPITAL LETTER O WITH DOT ABOVE-->
+		<item><ascii>ȯ</ascii><binary>1100100010101111</binary></item><!--LATIN SMALL LETTER O WITH DOT ABOVE-->
+		<item><ascii>Ȱ</ascii><binary>1100100010110000</binary></item><!--LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON-->
+		<item><ascii>ȱ</ascii><binary>1100100010110001</binary></item><!--LATIN SMALL LETTER O WITH DOT ABOVE AND MACRON-->
+		<item><ascii>Ȳ</ascii><binary>1100100010110010</binary></item><!--LATIN CAPITAL LETTER Y WITH MACRON-->
+		<item><ascii>ȳ</ascii><binary>1100100010110011</binary></item><!--LATIN SMALL LETTER Y WITH MACRON-->
+		<item><ascii>ȴ</ascii><binary>1100100010110100</binary></item><!--LATIN SMALL LETTER L WITH CURL-->
+		<item><ascii>ȵ</ascii><binary>1100100010110101</binary></item><!--LATIN SMALL LETTER N WITH CURL-->
+		<item><ascii>ȶ</ascii><binary>1100100010110110</binary></item><!--LATIN SMALL LETTER T WITH CURL-->
+		<item><ascii>ȷ</ascii><binary>1100100010110111</binary></item><!--LATIN SMALL LETTER DOTLESS J-->
+		<item><ascii>ȸ</ascii><binary>1100100010111000</binary></item><!--LATIN SMALL LETTER DB DIGRAPH-->
+		<item><ascii>ȹ</ascii><binary>1100100010111001</binary></item><!--LATIN SMALL LETTER QP DIGRAPH-->
+		<item><ascii>Ⱥ</ascii><binary>1100100010111010</binary></item><!--LATIN CAPITAL LETTER A WITH STROKE-->
+		<item><ascii>Ȼ</ascii><binary>1100100010111011</binary></item><!--LATIN CAPITAL LETTER C WITH STROKE-->
+		<item><ascii>ȼ</ascii><binary>1100100010111100</binary></item><!--LATIN SMALL LETTER C WITH STROKE-->
+		<item><ascii>Ƚ</ascii><binary>1100100010111101</binary></item><!--LATIN CAPITAL LETTER L WITH BAR-->
+		<item><ascii>Ⱦ</ascii><binary>1100100010111110</binary></item><!--LATIN CAPITAL LETTER T WITH DIAGONAL STROKE-->
+		<item><ascii>ȿ</ascii><binary>1100100010111111</binary></item><!--LATIN SMALL LETTER S WITH SWASH TAIL-->
+		<item><ascii>ɀ</ascii><binary>1100100110000000</binary></item><!--LATIN SMALL LETTER Z WITH SWASH TAIL-->
+		<item><ascii>Ɂ</ascii><binary>1100100110000001</binary></item><!--LATIN CAPITAL LETTER GLOTTAL STOP-->
+		<item><ascii>ɂ</ascii><binary>1100100110000010</binary></item><!--LATIN SMALL LETTER GLOTTAL STOP-->
+		<item><ascii>Ƀ</ascii><binary>1100100110000011</binary></item><!--LATIN CAPITAL LETTER B WITH STROKE-->
+		<item><ascii>Ʉ</ascii><binary>1100100110000100</binary></item><!--LATIN CAPITAL LETTER U BAR-->
+		<item><ascii>Ʌ</ascii><binary>1100100110000101</binary></item><!--LATIN CAPITAL LETTER TURNED V-->
+		<item><ascii>Ɇ</ascii><binary>1100100110000110</binary></item><!--LATIN CAPITAL LETTER E WITH STROKE-->
+		<item><ascii>ɇ</ascii><binary>1100100110000111</binary></item><!--LATIN SMALL LETTER E WITH STROKE-->
+		<item><ascii>Ɉ</ascii><binary>1100100110001000</binary></item><!--LATIN CAPITAL LETTER J WITH STROKE-->
+		<item><ascii>ɉ</ascii><binary>1100100110001001</binary></item><!--LATIN SMALL LETTER J WITH STROKE-->
+		<item><ascii>Ɋ</ascii><binary>1100100110001010</binary></item><!--LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL-->
+		<item><ascii>ɋ</ascii><binary>1100100110001011</binary></item><!--LATIN SMALL LETTER Q WITH HOOK TAIL-->
+		<item><ascii>Ɍ</ascii><binary>1100100110001100</binary></item><!--LATIN CAPITAL LETTER R WITH STROKE-->
+		<item><ascii>ɍ</ascii><binary>1100100110001101</binary></item><!--LATIN SMALL LETTER R WITH STROKE-->
+		<item><ascii>Ɏ</ascii><binary>1100100110001110</binary></item><!--LATIN CAPITAL LETTER Y WITH STROKE-->
+		<item><ascii>ɏ</ascii><binary>1100100110001111</binary></item><!--LATIN SMALL LETTER Y WITH STROKE-->
+		<item><ascii>ɐ</ascii><binary>1100100110010000</binary></item><!--LATIN SMALL LETTER TURNED A-->
+		<item><ascii>ɑ</ascii><binary>1100100110010001</binary></item><!--LATIN SMALL LETTER ALPHA-->
+		<item><ascii>ɒ</ascii><binary>1100100110010010</binary></item><!--LATIN SMALL LETTER TURNED ALPHA-->
+		<item><ascii>ɓ</ascii><binary>1100100110010011</binary></item><!--LATIN SMALL LETTER B WITH HOOK-->
+		<item><ascii>ɔ</ascii><binary>1100100110010100</binary></item><!--LATIN SMALL LETTER OPEN O-->
+		<item><ascii>ɕ</ascii><binary>1100100110010101</binary></item><!--LATIN SMALL LETTER C WITH CURL-->
+		<item><ascii>ɖ</ascii><binary>1100100110010110</binary></item><!--LATIN SMALL LETTER D WITH TAIL-->
+		<item><ascii>ɗ</ascii><binary>1100100110010111</binary></item><!--LATIN SMALL LETTER D WITH HOOK-->
+		<item><ascii>ɘ</ascii><binary>1100100110011000</binary></item><!--LATIN SMALL LETTER REVERSED E-->
+		<item><ascii>ə</ascii><binary>1100100110011001</binary></item><!--LATIN SMALL LETTER SCHWA-->
+		<item><ascii>ɚ</ascii><binary>1100100110011010</binary></item><!--LATIN SMALL LETTER SCHWA WITH HOOK-->
+		<item><ascii>ɛ</ascii><binary>1100100110011011</binary></item><!--LATIN SMALL LETTER OPEN E-->
+		<item><ascii>ɜ</ascii><binary>1100100110011100</binary></item><!--LATIN SMALL LETTER REVERSED OPEN E-->
+		<item><ascii>ɝ</ascii><binary>1100100110011101</binary></item><!--LATIN SMALL LETTER REVERSED OPEN E WITH HOOK-->
+		<item><ascii>ɞ</ascii><binary>1100100110011110</binary></item><!--LATIN SMALL LETTER CLOSED REVERSED OPEN E-->
+		<item><ascii>ɟ</ascii><binary>1100100110011111</binary></item><!--LATIN SMALL LETTER DOTLESS J WITH STROKE-->
+		<item><ascii>ɠ</ascii><binary>1100100110100000</binary></item><!--LATIN SMALL LETTER G WITH HOOK-->
+		<item><ascii>ɡ</ascii><binary>1100100110100001</binary></item><!--LATIN SMALL LETTER SCRIPT G-->
+		<item><ascii>ɢ</ascii><binary>1100100110100010</binary></item><!--LATIN LETTER SMALL CAPITAL G-->
+		<item><ascii>ɣ</ascii><binary>1100100110100011</binary></item><!--LATIN SMALL LETTER GAMMA-->
+		<item><ascii>ɤ</ascii><binary>1100100110100100</binary></item><!--LATIN SMALL LETTER RAMS HORN-->
+		<item><ascii>ɥ</ascii><binary>1100100110100101</binary></item><!--LATIN SMALL LETTER TURNED H-->
+		<item><ascii>ɦ</ascii><binary>1100100110100110</binary></item><!--LATIN SMALL LETTER H WITH HOOK-->
+		<item><ascii>ɧ</ascii><binary>1100100110100111</binary></item><!--LATIN SMALL LETTER HENG WITH HOOK-->
+		<item><ascii>ɨ</ascii><binary>1100100110101000</binary></item><!--LATIN SMALL LETTER I WITH STROKE-->
+		<item><ascii>ɩ</ascii><binary>1100100110101001</binary></item><!--LATIN SMALL LETTER IOTA-->
+		<item><ascii>ɪ</ascii><binary>1100100110101010</binary></item><!--LATIN LETTER SMALL CAPITAL I-->
+		<item><ascii>ɫ</ascii><binary>1100100110101011</binary></item><!--LATIN SMALL LETTER L WITH MIDDLE TILDE-->
+		<item><ascii>ɬ</ascii><binary>1100100110101100</binary></item><!--LATIN SMALL LETTER L WITH BELT-->
+		<item><ascii>ɭ</ascii><binary>1100100110101101</binary></item><!--LATIN SMALL LETTER L WITH RETROFLEX HOOK-->
+		<item><ascii>ɮ</ascii><binary>1100100110101110</binary></item><!--LATIN SMALL LETTER LEZH-->
+		<item><ascii>ɯ</ascii><binary>1100100110101111</binary></item><!--LATIN SMALL LETTER TURNED M-->
+		<item><ascii>ɰ</ascii><binary>1100100110110000</binary></item><!--LATIN SMALL LETTER TURNED M WITH LONG LEG-->
+		<item><ascii>ɱ</ascii><binary>1100100110110001</binary></item><!--LATIN SMALL LETTER M WITH HOOK-->
+		<item><ascii>ɲ</ascii><binary>1100100110110010</binary></item><!--LATIN SMALL LETTER N WITH LEFT HOOK-->
+		<item><ascii>ɳ</ascii><binary>1100100110110011</binary></item><!--LATIN SMALL LETTER N WITH RETROFLEX HOOK-->
+		<item><ascii>ɴ</ascii><binary>1100100110110100</binary></item><!--LATIN LETTER SMALL CAPITAL N-->
+		<item><ascii>ɵ</ascii><binary>1100100110110101</binary></item><!--LATIN SMALL LETTER BARRED O-->
+		<item><ascii>ɶ</ascii><binary>1100100110110110</binary></item><!--LATIN LETTER SMALL CAPITAL OE-->
+		<item><ascii>ɷ</ascii><binary>1100100110110111</binary></item><!--LATIN SMALL LETTER CLOSED OMEGA-->
+		<item><ascii>ɸ</ascii><binary>1100100110111000</binary></item><!--LATIN SMALL LETTER PHI-->
+		<item><ascii>ɹ</ascii><binary>1100100110111001</binary></item><!--LATIN SMALL LETTER TURNED R-->
+		<item><ascii>ɺ</ascii><binary>1100100110111010</binary></item><!--LATIN SMALL LETTER TURNED R WITH LONG LEG-->
+		<item><ascii>ɻ</ascii><binary>1100100110111011</binary></item><!--LATIN SMALL LETTER TURNED R WITH HOOK-->
+		<item><ascii>ɼ</ascii><binary>1100100110111100</binary></item><!--LATIN SMALL LETTER R WITH LONG LEG-->
+		<item><ascii>ɽ</ascii><binary>1100100110111101</binary></item><!--LATIN SMALL LETTER R WITH TAIL-->
+		<item><ascii>ɾ</ascii><binary>1100100110111110</binary></item><!--LATIN SMALL LETTER R WITH FISHHOOK-->
+		<item><ascii>ɿ</ascii><binary>1100100110111111</binary></item><!--LATIN SMALL LETTER REVERSED R WITH FISHHOOK-->
+		<item><ascii>ʀ</ascii><binary>1100101010000000</binary></item><!--LATIN LETTER SMALL CAPITAL R-->
+		<item><ascii>ʁ</ascii><binary>1100101010000001</binary></item><!--LATIN LETTER SMALL CAPITAL INVERTED R-->
+		<item><ascii>ʂ</ascii><binary>1100101010000010</binary></item><!--LATIN SMALL LETTER S WITH HOOK-->
+		<item><ascii>ʃ</ascii><binary>1100101010000011</binary></item><!--LATIN SMALL LETTER ESH-->
+		<item><ascii>ʄ</ascii><binary>1100101010000100</binary></item><!--LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK-->
+		<item><ascii>ʅ</ascii><binary>1100101010000101</binary></item><!--LATIN SMALL LETTER SQUAT REVERSED ESH-->
+		<item><ascii>ʆ</ascii><binary>1100101010000110</binary></item><!--LATIN SMALL LETTER ESH WITH CURL-->
+		<item><ascii>ʇ</ascii><binary>1100101010000111</binary></item><!--LATIN SMALL LETTER TURNED T-->
+		<item><ascii>ʈ</ascii><binary>1100101010001000</binary></item><!--LATIN SMALL LETTER T WITH RETROFLEX HOOK-->
+		<item><ascii>ʉ</ascii><binary>1100101010001001</binary></item><!--LATIN SMALL LETTER U BAR-->
+		<item><ascii>ʊ</ascii><binary>1100101010001010</binary></item><!--LATIN SMALL LETTER UPSILON-->
+		<item><ascii>ʋ</ascii><binary>1100101010001011</binary></item><!--LATIN SMALL LETTER V WITH HOOK-->
+		<item><ascii>ʌ</ascii><binary>1100101010001100</binary></item><!--LATIN SMALL LETTER TURNED V-->
+		<item><ascii>ʍ</ascii><binary>1100101010001101</binary></item><!--LATIN SMALL LETTER TURNED W-->
+		<item><ascii>ʎ</ascii><binary>1100101010001110</binary></item><!--LATIN SMALL LETTER TURNED Y-->
+		<item><ascii>ʏ</ascii><binary>1100101010001111</binary></item><!--LATIN LETTER SMALL CAPITAL Y-->
+		<item><ascii>ʐ</ascii><binary>1100101010010000</binary></item><!--LATIN SMALL LETTER Z WITH RETROFLEX HOOK-->
+		<item><ascii>ʑ</ascii><binary>1100101010010001</binary></item><!--LATIN SMALL LETTER Z WITH CURL-->
+		<item><ascii>ʒ</ascii><binary>1100101010010010</binary></item><!--LATIN SMALL LETTER EZH-->
+		<item><ascii>ʓ</ascii><binary>1100101010010011</binary></item><!--LATIN SMALL LETTER EZH WITH CURL-->
+		<item><ascii>ʔ</ascii><binary>1100101010010100</binary></item><!--LATIN LETTER GLOTTAL STOP-->
+		<item><ascii>ʕ</ascii><binary>1100101010010101</binary></item><!--LATIN LETTER PHARYNGEAL VOICED FRICATIVE-->
+		<item><ascii>ʖ</ascii><binary>1100101010010110</binary></item><!--LATIN LETTER INVERTED GLOTTAL STOP-->
+		<item><ascii>ʗ</ascii><binary>1100101010010111</binary></item><!--LATIN LETTER STRETCHED C-->
+		<item><ascii>ʘ</ascii><binary>1100101010011000</binary></item><!--LATIN LETTER BILABIAL CLICK-->
+		<item><ascii>ʙ</ascii><binary>1100101010011001</binary></item><!--LATIN LETTER SMALL CAPITAL B-->
+		<item><ascii>ʚ</ascii><binary>1100101010011010</binary></item><!--LATIN SMALL LETTER CLOSED OPEN E-->
+		<item><ascii>ʛ</ascii><binary>1100101010011011</binary></item><!--LATIN LETTER SMALL CAPITAL G WITH HOOK-->
+		<item><ascii>ʜ</ascii><binary>1100101010011100</binary></item><!--LATIN LETTER SMALL CAPITAL H-->
+		<item><ascii>ʝ</ascii><binary>1100101010011101</binary></item><!--LATIN SMALL LETTER J WITH CROSSED-TAIL-->
+		<item><ascii>ʞ</ascii><binary>1100101010011110</binary></item><!--LATIN SMALL LETTER TURNED K-->
+		<item><ascii>ʟ</ascii><binary>1100101010011111</binary></item><!--LATIN LETTER SMALL CAPITAL L-->
+		<item><ascii>ʠ</ascii><binary>1100101010100000</binary></item><!--LATIN SMALL LETTER Q WITH HOOK-->
+		<item><ascii>ʡ</ascii><binary>1100101010100001</binary></item><!--LATIN LETTER GLOTTAL STOP WITH STROKE-->
+		<item><ascii>ʢ</ascii><binary>1100101010100010</binary></item><!--LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE-->
+		<item><ascii>ʣ</ascii><binary>1100101010100011</binary></item><!--LATIN SMALL LETTER DZ DIGRAPH-->
+		<item><ascii>ʤ</ascii><binary>1100101010100100</binary></item><!--LATIN SMALL LETTER DEZH DIGRAPH-->
+		<item><ascii>ʥ</ascii><binary>1100101010100101</binary></item><!--LATIN SMALL LETTER DZ DIGRAPH WITH CURL-->
+		<item><ascii>ʦ</ascii><binary>1100101010100110</binary></item><!--LATIN SMALL LETTER TS DIGRAPH-->
+		<item><ascii>ʧ</ascii><binary>1100101010100111</binary></item><!--LATIN SMALL LETTER TESH DIGRAPH-->
+		<item><ascii>ʨ</ascii><binary>1100101010101000</binary></item><!--LATIN SMALL LETTER TC DIGRAPH WITH CURL-->
+		<item><ascii>ʩ</ascii><binary>1100101010101001</binary></item><!--LATIN SMALL LETTER FENG DIGRAPH-->
+		<item><ascii>ʪ</ascii><binary>1100101010101010</binary></item><!--LATIN SMALL LETTER LS DIGRAPH-->
+		<item><ascii>ʫ</ascii><binary>1100101010101011</binary></item><!--LATIN SMALL LETTER LZ DIGRAPH-->
+		<item><ascii>ʬ</ascii><binary>1100101010101100</binary></item><!--LATIN LETTER BILABIAL PERCUSSIVE-->
+		<item><ascii>ʭ</ascii><binary>1100101010101101</binary></item><!--LATIN LETTER BIDENTAL PERCUSSIVE-->
+		<item><ascii>ʮ</ascii><binary>1100101010101110</binary></item><!--LATIN SMALL LETTER TURNED H WITH FISHHOOK-->
+		<item><ascii>ʯ</ascii><binary>1100101010101111</binary></item><!--LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL-->
+		<item><ascii>ʰ</ascii><binary>1100101010110000</binary></item><!--MODIFIER LETTER SMALL H-->
+		<item><ascii>ʱ</ascii><binary>1100101010110001</binary></item><!--MODIFIER LETTER SMALL H WITH HOOK-->
+		<item><ascii>ʲ</ascii><binary>1100101010110010</binary></item><!--MODIFIER LETTER SMALL J-->
+		<item><ascii>ʳ</ascii><binary>1100101010110011</binary></item><!--MODIFIER LETTER SMALL R-->
+		<item><ascii>ʴ</ascii><binary>1100101010110100</binary></item><!--MODIFIER LETTER SMALL TURNED R-->
+		<item><ascii>ʵ</ascii><binary>1100101010110101</binary></item><!--MODIFIER LETTER SMALL TURNED R WITH HOOK-->
+		<item><ascii>ʶ</ascii><binary>1100101010110110</binary></item><!--MODIFIER LETTER SMALL CAPITAL INVERTED R-->
+		<item><ascii>ʷ</ascii><binary>1100101010110111</binary></item><!--MODIFIER LETTER SMALL W-->
+		<item><ascii>ʸ</ascii><binary>1100101010111000</binary></item><!--MODIFIER LETTER SMALL Y-->
+		<item><ascii>ʹ</ascii><binary>1100101010111001</binary></item><!--MODIFIER LETTER PRIME-->
+		<item><ascii>ʺ</ascii><binary>1100101010111010</binary></item><!--MODIFIER LETTER DOUBLE PRIME-->
+		<item><ascii>ʻ</ascii><binary>1100101010111011</binary></item><!--MODIFIER LETTER TURNED COMMA-->
+		<item><ascii>ʼ</ascii><binary>1100101010111100</binary></item><!--MODIFIER LETTER APOSTROPHE-->
+		<item><ascii>ʽ</ascii><binary>1100101010111101</binary></item><!--MODIFIER LETTER REVERSED COMMA-->
+		<item><ascii>ʾ</ascii><binary>1100101010111110</binary></item><!--MODIFIER LETTER RIGHT HALF RING-->
+		<item><ascii>ʿ</ascii><binary>1100101010111111</binary></item><!--MODIFIER LETTER LEFT HALF RING-->
+		<item><ascii>ˀ</ascii><binary>1100101110000000</binary></item><!--MODIFIER LETTER GLOTTAL STOP-->
+		<item><ascii>ˁ</ascii><binary>1100101110000001</binary></item><!--MODIFIER LETTER REVERSED GLOTTAL STOP-->
+		<item><ascii>˂</ascii><binary>1100101110000010</binary></item><!--MODIFIER LETTER LEFT ARROWHEAD-->
+		<item><ascii>˃</ascii><binary>1100101110000011</binary></item><!--MODIFIER LETTER RIGHT ARROWHEAD-->
+		<item><ascii>˄</ascii><binary>1100101110000100</binary></item><!--MODIFIER LETTER UP ARROWHEAD-->
+		<item><ascii>˅</ascii><binary>1100101110000101</binary></item><!--MODIFIER LETTER DOWN ARROWHEAD-->
+		<item><ascii>ˆ</ascii><binary>1100101110000110</binary></item><!--MODIFIER LETTER CIRCUMFLEX ACCENT-->
+		<item><ascii>ˇ</ascii><binary>1100101110000111</binary></item><!--CARON-->
+		<item><ascii>ˈ</ascii><binary>1100101110001000</binary></item><!--MODIFIER LETTER VERTICAL LINE-->
+		<item><ascii>ˉ</ascii><binary>1100101110001001</binary></item><!--MODIFIER LETTER MACRON-->
+		<item><ascii>ˊ</ascii><binary>1100101110001010</binary></item><!--MODIFIER LETTER ACUTE ACCENT-->
+		<item><ascii>ˋ</ascii><binary>1100101110001011</binary></item><!--MODIFIER LETTER GRAVE ACCENT-->
+		<item><ascii>ˌ</ascii><binary>1100101110001100</binary></item><!--MODIFIER LETTER LOW VERTICAL LINE-->
+		<item><ascii>ˍ</ascii><binary>1100101110001101</binary></item><!--MODIFIER LETTER LOW MACRON-->
+		<item><ascii>ˎ</ascii><binary>1100101110001110</binary></item><!--MODIFIER LETTER LOW GRAVE ACCENT-->
+		<item><ascii>ˏ</ascii><binary>1100101110001111</binary></item><!--MODIFIER LETTER LOW ACUTE ACCENT-->
+		<item><ascii>ː</ascii><binary>1100101110010000</binary></item><!--MODIFIER LETTER TRIANGULAR COLON-->
+		<item><ascii>ˑ</ascii><binary>1100101110010001</binary></item><!--MODIFIER LETTER HALF TRIANGULAR COLON-->
+		<item><ascii>˒</ascii><binary>1100101110010010</binary></item><!--MODIFIER LETTER CENTRED RIGHT HALF RING-->
+		<item><ascii>˓</ascii><binary>1100101110010011</binary></item><!--MODIFIER LETTER CENTRED LEFT HALF RING-->
+		<item><ascii>˔</ascii><binary>1100101110010100</binary></item><!--MODIFIER LETTER UP TACK-->
+		<item><ascii>˕</ascii><binary>1100101110010101</binary></item><!--MODIFIER LETTER DOWN TACK-->
+		<item><ascii>˖</ascii><binary>1100101110010110</binary></item><!--MODIFIER LETTER PLUS SIGN-->
+		<item><ascii>˗</ascii><binary>1100101110010111</binary></item><!--MODIFIER LETTER MINUS SIGN-->
+		<item><ascii>˘</ascii><binary>1100101110011000</binary></item><!--BREVE-->
+		<item><ascii>˙</ascii><binary>1100101110011001</binary></item><!--DOT ABOVE-->
+		<item><ascii>˚</ascii><binary>1100101110011010</binary></item><!--RING ABOVE-->
+		<item><ascii>˛</ascii><binary>1100101110011011</binary></item><!--OGONEK-->
+		<item><ascii>˜</ascii><binary>1100101110011100</binary></item><!--SMALL TILDE-->
+		<item><ascii>˝</ascii><binary>1100101110011101</binary></item><!--DOUBLE ACUTE ACCENT-->
+		<item><ascii>˞</ascii><binary>1100101110011110</binary></item><!--MODIFIER LETTER RHOTIC HOOK-->
+		<item><ascii>˟</ascii><binary>1100101110011111</binary></item><!--MODIFIER LETTER CROSS ACCENT-->
+		<item><ascii>ˠ</ascii><binary>1100101110100000</binary></item><!--MODIFIER LETTER SMALL GAMMA-->
+		<item><ascii>ˡ</ascii><binary>1100101110100001</binary></item><!--MODIFIER LETTER SMALL L-->
+		<item><ascii>ˢ</ascii><binary>1100101110100010</binary></item><!--MODIFIER LETTER SMALL S-->
+		<item><ascii>ˣ</ascii><binary>1100101110100011</binary></item><!--MODIFIER LETTER SMALL X-->
+		<item><ascii>ˤ</ascii><binary>1100101110100100</binary></item><!--MODIFIER LETTER SMALL REVERSED GLOTTAL STOP-->
+		<item><ascii>˥</ascii><binary>1100101110100101</binary></item><!--MODIFIER LETTER EXTRA-HIGH TONE BAR-->
+		<item><ascii>˦</ascii><binary>1100101110100110</binary></item><!--MODIFIER LETTER HIGH TONE BAR-->
+		<item><ascii>˧</ascii><binary>1100101110100111</binary></item><!--MODIFIER LETTER MID TONE BAR-->
+		<item><ascii>˨</ascii><binary>1100101110101000</binary></item><!--MODIFIER LETTER LOW TONE BAR-->
+		<item><ascii>˩</ascii><binary>1100101110101001</binary></item><!--MODIFIER LETTER EXTRA-LOW TONE BAR-->
+		<item><ascii>˪</ascii><binary>1100101110101010</binary></item><!--MODIFIER LETTER YIN DEPARTING TONE MARK-->
+		<item><ascii>˫</ascii><binary>1100101110101011</binary></item><!--MODIFIER LETTER YANG DEPARTING TONE MARK-->
+		<item><ascii>ˬ</ascii><binary>1100101110101100</binary></item><!--MODIFIER LETTER VOICING-->
+		<item><ascii>˭</ascii><binary>1100101110101101</binary></item><!--MODIFIER LETTER UNASPIRATED-->
+		<item><ascii>ˮ</ascii><binary>1100101110101110</binary></item><!--MODIFIER LETTER DOUBLE APOSTROPHE-->
+		<item><ascii>˯</ascii><binary>1100101110101111</binary></item><!--MODIFIER LETTER LOW DOWN ARROWHEAD-->
+		<item><ascii>˰</ascii><binary>1100101110110000</binary></item><!--MODIFIER LETTER LOW UP ARROWHEAD-->
+		<item><ascii>˱</ascii><binary>1100101110110001</binary></item><!--MODIFIER LETTER LOW LEFT ARROWHEAD-->
+		<item><ascii>˲</ascii><binary>1100101110110010</binary></item><!--MODIFIER LETTER LOW RIGHT ARROWHEAD-->
+		<item><ascii>˳</ascii><binary>1100101110110011</binary></item><!--MODIFIER LETTER LOW RING-->
+		<item><ascii>˴</ascii><binary>1100101110110100</binary></item><!--MODIFIER LETTER MIDDLE GRAVE ACCENT-->
+		<item><ascii>˵</ascii><binary>1100101110110101</binary></item><!--MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT-->
+		<item><ascii>˶</ascii><binary>1100101110110110</binary></item><!--MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT-->
+		<item><ascii>˷</ascii><binary>1100101110110111</binary></item><!--MODIFIER LETTER LOW TILDE-->
+		<item><ascii>˸</ascii><binary>1100101110111000</binary></item><!--MODIFIER LETTER RAISED COLON-->
+		<item><ascii>˹</ascii><binary>1100101110111001</binary></item><!--MODIFIER LETTER BEGIN HIGH TONE-->
+		<item><ascii>˺</ascii><binary>1100101110111010</binary></item><!--MODIFIER LETTER END HIGH TONE-->
+		<item><ascii>˻</ascii><binary>1100101110111011</binary></item><!--MODIFIER LETTER BEGIN LOW TONE-->
+		<item><ascii>˼</ascii><binary>1100101110111100</binary></item><!--MODIFIER LETTER END LOW TONE-->
+		<item><ascii>˽</ascii><binary>1100101110111101</binary></item><!--MODIFIER LETTER SHELF-->
+		<item><ascii>˾</ascii><binary>1100101110111110</binary></item><!--MODIFIER LETTER OPEN SHELF-->
+		<item><ascii>˿</ascii><binary>1100101110111111</binary></item><!--MODIFIER LETTER LOW LEFT ARROW-->
+
 	</asciibinary>
 
+	<!--This table maps binary codes to BASE64 chars-->
 	<binarybase64>
 		<item><binary>000000</binary><base64>A</base64></item>
 		<item><binary>000001</binary><base64>B</base64></item>
@@ -227,7 +775,7 @@
 		<item><binary>111101</binary><base64>9</base64></item>
 		<item><binary>111110</binary><base64>+</base64></item>
 		<item><binary>111111</binary><base64>/</base64></item>
-		
+
 	</binarybase64>
 
 </datamap>
